@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ArchivistsDesktop.View.DefaultWindow"
+		MinHeight="450"
+		MinWidth="800"
+		Icon="/Source/Image/ava.png"
+		FontFamily="Verdana"
+        Title="Архив">
+	<Window.Styles>
+		<StyleInclude Source="/Styles/StylesWhite.axaml" />
+	</Window.Styles>
+	<Grid
+		RowDefinitions="50, *">
+		<Menu>
+			<MenuItem
+				Name="ExitItem"
+				Header="Выход"/>
+			<MenuItem
+				Name="SettingsItem"
+				Header="Настройки"/>
+		</Menu>
+		<ContentControl
+			Grid.Row="1"
+			Name="PageControl"/>
+	</Grid>
+</Window>

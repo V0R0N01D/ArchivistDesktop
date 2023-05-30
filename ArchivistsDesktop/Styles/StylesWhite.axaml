@@ -1,0 +1,29 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20"
+				Width="600"
+				Height="600">
+			<Grid
+				RowDefinitions="*,*,*">
+				<Button
+					Content="default button"/>
+				<TextBlock
+					Text="default text"
+					Grid.Row="1"/>
+			</Grid>
+        </Border>
+    </Design.PreviewWith>
+
+	<Style
+		Selector="TextBlock">
+		<Setter Property="TextWrapping"
+				Value="Wrap"/>
+	</Style>
+
+	<Style
+		Selector="TextBox">
+		<Setter Property="TextWrapping"
+				Value="Wrap"/>
+	</Style>
+</Styles>
