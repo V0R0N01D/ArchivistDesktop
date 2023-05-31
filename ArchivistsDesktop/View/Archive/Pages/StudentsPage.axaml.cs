@@ -13,7 +13,7 @@ namespace ArchivistsDesktop.View.Archive.Pages
 {
     public partial class StudentsPage : UserControl
     {
-        private List<StudentsResponse>? _students = new(); 
+        private List<StudentsResponse>? _students = new();
 
         public StudentsPage()
         {
@@ -30,6 +30,17 @@ namespace ArchivistsDesktop.View.Archive.Pages
         private void InitializeEvent()
         {
             BackPage.Click += BackPage_Click;
+            Search.Click += SearchOnClick;
+        }
+
+        /// <summary>
+        /// Ïמטסך סעףהוםעמג
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void SearchOnClick(object? sender, RoutedEventArgs e)
+        {
+            LoadClientData();
         }
 
 
@@ -43,44 +54,70 @@ namespace ArchivistsDesktop.View.Archive.Pages
             UserData.currentWindow!.DisplayBackPage();
         }
 
+        /// <summary>
+        /// Çאדנףחךא ט מעבנאזוםטו טםפמנלאצטט מ סעףהוםעאץ
+        /// </summary>
         private async void LoadClientData()
         {
             // Ñענמךא אגעמנטחאצטט ג api
-            string authString = Auth.GetAuth(ConnectData.Login, ConnectData.Password);
+            var authString = Auth.GetAuth(ConnectData.Login, ConnectData.Password);
 
-            // findbutton is enabled false
+            var searchText = SearchInput.Text;
+
+            // Ïנמגונךא חםאקוםטÿ גגוהוםםמדמ ג ןמכו ןמטסךא
+            if (string.IsNullOrWhiteSpace(searchText))
+            {
+                searchText = null;
+            }
+
+            bool? isStuding = FilterIsStudent.SelectedIndex switch
+            {
+                2 => false,
+                1 => true,
+                _ => null
+            };
+
+            // Îעךכ‏קוםטו גמחלמזםמסעט םאזאעטÿ םא ךםמןךף ןמטסךא
+            Search.IsEnabled = false;
+
+            // Ïנמגונךא הכÿ ןנוהןנמסלמענא ףהאכטעüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüü
+            if (ConnectData.Login == "")
+            {
+                return;
+            }
 
             // Ïמכףקוםטו טםפמנלאצטט מע api
             try
             {
-                using (var request = new HttpRequestMessage(HttpMethod.Get, "Students"))
+                var requestik = "Students".AddOptionalParam("search", searchText).AddOptionalParam("studing", isStuding);
+                using var request = new HttpRequestMessage(HttpMethod.Get, requestik);
+                request.Headers.Add("AUTH", authString);
+                var response = await ConnectData.Client.SendAsync(request);
+                if (!response.IsSuccessStatusCode)
                 {
-                    request.Headers.Add("AUTH", authString);
-                    var response = await ConnectData.Client.SendAsync(request);
-                    if (!response.IsSuccessStatusCode)
-                    {
-                        await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא", $"Êמה: {response.StatusCode}, מרטבךא: {await response.Content.ReadAsStringAsync()}").ShowDialog(UserData.currentWindow);
-                        return;
-                    }
-
-                    _students = await response.Content.ReadFromJsonAsync<List<StudentsResponse>>();
-
-                    StudentList.Items = _students;
-
-
-                    var k = StudentList.ItemCount;
+                    await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא",
+                            $"Êמה: {response.StatusCode}, מרטבךא: {await response.Content.ReadAsStringAsync()}")
+                        .ShowDialog(UserData.currentWindow);
+                    Search.IsEnabled = true;
+                    return;
                 }
+
+                _students = await response.Content.ReadFromJsonAsync<List<StudentsResponse>>();
+
+                NoResult.IsVisible = _students is { Count: 0 };
+
+                StudentList.Items = _students;
             }
             // Ïונוץגאע מרטבמך סגÿחט ס api
             catch (Exception ex)
             {
-                await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא", $"Îרטבךא סמוהטםוםטÿ: {ex.Message}").ShowDialog(UserData.currentWindow);
+                await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא", $"Îרטבךא סמוהטםוםטÿ: {ex.Message}")
+                    .ShowDialog(UserData.currentWindow);
                 return;
             }
 
-            
-
-            // findbutton is enabled true
+            // Âךכ‏קוםטו גמחלמזםמסעט םאזאעטÿ םא ךםמןךף ןמטסךא
+            Search.IsEnabled = true;
         }
     }
 }

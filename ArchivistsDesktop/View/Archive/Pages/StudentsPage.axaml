@@ -2,80 +2,110 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:responseClass="clr-namespace:ArchivistAPI.Contracts.ResponseClass"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="ArchivistsDesktop.View.Archive.Pages.StudentsPage">
-	<Grid
-		RowDefinitions="*,4*,70"
-		ColumnDefinitions="*,*,*,*">
-		<ListBox
-			Name="StudentList"
-			Grid.RowSpan="2"
-			Grid.ColumnSpan="3">
-			<ListBox.ItemTemplate>
-				<DataTemplate>
-					<Grid
-						ColumnDefinitions="*,*">
-						<StackPanel
-							Grid.Column="0"
-							Spacing="10">
-							<TextBlock>
-								<TextBlock.Text>
-									<MultiBinding StringFormat="ФИО: {0} {1} {2}">
-										<Binding Path="LastName"/>
-										<Binding Path="FirstName"/>
-										<Binding Path="Patronymic"/>
-									</MultiBinding>
-								</TextBlock.Text>
-							</TextBlock>
-							<TextBlock
-								Text="{Binding StringFormat=Дата рождения: {0}, Path=DateBirthday}"/>
-							<TextBlock
-								Text="{Binding StringFormat=Средний балл аттестата: {0}, Path=AverageGrade}"/>
-						</StackPanel>
+    <Grid
+        RowDefinitions="*,4*,70"
+        ColumnDefinitions="*,*,*,*">
+        <ListBox
+            Name="StudentList"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="3">
+            <ListBox.ItemTemplate>
+                <DataTemplate DataType="responseClass:StudentsResponse">
+                    <Grid
+                        ColumnDefinitions="*,*">
+                        <StackPanel
+                            Grid.Column="0"
+                            Spacing="10">
+                            <TextBlock>
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="ФИО: {0} {1} {2}">
+                                        <Binding Path="LastName" />
+                                        <Binding Path="FirstName" />
+                                        <Binding Path="Patronymic" />
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                            <TextBlock
+                                Text="{Binding StringFormat=Дата рождения: {0}, Path=DateBirthday}" />
+                            <TextBlock
+                                Text="{Binding StringFormat=Средний балл аттестата: {0}, Path=AverageGrade}" />
+                        </StackPanel>
 
-						<StackPanel
-							Grid.Column="1"
-							Spacing="10">
-							<TextBlock
-								Text="{Binding StringFormat=Специальность: {0}, Path=SpecialityTitle}"/>
-							<TextBlock
-								Text="{Binding StringFormat=Группа: {0}, Path=GroupTitle}"/>
-							<TextBlock
-								Text="{Binding StringFormat=Обучается: {0}, Path=IsStudingTitle}"/>
-						</StackPanel>
+                        <StackPanel
+                            Grid.Column="1"
+                            Spacing="10">
+                            <TextBlock
+                                Text="{Binding StringFormat=Специальность: {0}, Path=SpecialityTitle}" />
+                            <TextBlock
+                                Text="{Binding StringFormat=Группа: {0}, Path=GroupTitle}" />
+                            <TextBlock
+                                Text="{Binding StringFormat=Дата начала обучения: {0}, Path=DateStartEducation}" />
+                            <TextBlock
+                                Text="{Binding StringFormat=Обучается: {0}, Path=IsStudingTitle}" />
+                        </StackPanel>
 
-					</Grid>
-				</DataTemplate>
-			</ListBox.ItemTemplate>
-		</ListBox>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        
+        <TextBlock
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            IsVisible="False"
+            Name="NoResult"
+            HorizontalAlignment="Center"
+            Margin="10"
+            FontSize="20"
+            Text="Нет результата, который соответствует запросу"/>
 
-		<TextBox
-			Name="SearchInput"
-			Watermark="Поиск"
-			Margin="10"
-			Grid.Column="3"
-			HorizontalAlignment="Stretch"
-			VerticalAlignment="Stretch"/>
+        <TextBox
+            Name="SearchInput"
+            Watermark="Поиск"
+            Margin="10"
+            Grid.Row="0"
+            Grid.Column="3"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch" />
 
-		<StackPanel
-			HorizontalAlignment="Stretch"
-			VerticalAlignment="Stretch"
-			Grid.Row="1"
-			Grid.Column="3">
-			<ComboBox
-				Grid.Column="3"
-				Grid.Row="1"
-				Margin="10"
-				HorizontalAlignment="Stretch"
-				VerticalAlignment="Stretch"/>
-		</StackPanel>
+        <StackPanel
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="10"
+            Spacing="10"
+            Grid.Row="1"
+            Grid.Column="3">
+            <ComboBox
+                Name="FilterIsStudent"
+                SelectedIndex="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch">
+                <ComboBoxItem
+                    Content="Без фильтрации"/>
+                <ComboBoxItem
+                    Content="Только обучающиеся"/>
+                <ComboBoxItem
+                    Content="Только не обучающиеся"/>
+            </ComboBox>
+            
+            <Button
+                Content="Найти"
+                Name="Search"
+                HorizontalContentAlignment="Center"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"/>
+        </StackPanel>
 
 
-
-		<Button
-			Name="BackPage"
-			Content="Назад"
-			Margin="10"
-			Grid.Row="2"/>
-	</Grid>
+        <Button
+            Name="BackPage"
+            Content="Назад"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0" />
+    </Grid>
 </UserControl>

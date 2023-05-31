@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ArchivistsDesktop
 {
-    public static class Auth
+    internal static class Auth
     {
         /// <summary>
         /// Получить query-параметр для авторизации
@@ -12,7 +12,7 @@ namespace ArchivistsDesktop
         /// <param name="login">Логин пользователя</param>
         /// <param name="password">Пароль пользователя</param>
         /// <returns></returns>
-        public static string GetAuth(string login, string password)
+        internal static string GetAuth(string login, string password)
         {
             var unixTimestamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
             var identifier = $"{(password + login).GetSha256()}{unixTimestamp}".GetSha256();
@@ -38,6 +38,16 @@ namespace ArchivistsDesktop
             var sha256 = SHA256.Create();
             var bytes = Encoding.ASCII.GetBytes(s);
             return sha256.ComputeHash(bytes).GetHex();
+        }
+
+        internal static string AddOptionalParam(this string s, string titleParam, object? value)
+        {
+            if (value is null)
+            {
+                return s;
+            }
+
+            return s.Contains('?') ? $"{s}&{titleParam}={value}" : $"{s}?{titleParam}={value}";
         }
     }
 }
