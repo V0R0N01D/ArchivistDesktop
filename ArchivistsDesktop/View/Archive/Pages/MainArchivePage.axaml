@@ -8,12 +8,12 @@
 	<Grid
 		RowDefinitions="*,*,*"
 		ColumnDefinitions="*,*">
-		<TextBlock
+		<!--<TextBlock
 			Text="Архив"
 			Grid.ColumnSpan="3"
 			HorizontalAlignment="Center"
 			VerticalAlignment="Center"
-			FontSize="40"/>
+			FontSize="40"/>-->
 		<Button
 			Name="ListStudent"
 			Grid.Row="1"

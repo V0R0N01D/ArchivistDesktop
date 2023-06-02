@@ -40,6 +40,13 @@ namespace ArchivistsDesktop
             return sha256.ComputeHash(bytes).GetHex();
         }
 
+        /// <summary>
+        /// Добавление опциональных параметров для запроса к api
+        /// </summary>
+        /// <param name="s">Строка к которой добавляется параметр</param>
+        /// <param name="titleParam">Название параметра</param>
+        /// <param name="value">Значение параметра</param>
+        /// <returns></returns>
         internal static string AddOptionalParam(this string s, string titleParam, object? value)
         {
             if (value is null)

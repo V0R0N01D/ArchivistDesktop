@@ -4776,23 +4776,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flyma\\.nuget\\packages\\": {},
+    "C:\\Users\\Class_User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flyma\\source\\repos\\ArchivistsDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
+      "projectUniqueName": "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
       "projectName": "ArchivistsDesktop",
-      "projectPath": "C:\\Users\\flyma\\source\\repos\\ArchivistsDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
-      "packagesPath": "C:\\Users\\flyma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flyma\\source\\repos\\ArchivistsDesktop\\ArchivistsDesktop\\obj\\",
+      "projectPath": "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
+      "packagesPath": "C:\\Users\\Class_User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\flyma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Class_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4861,7 +4861,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

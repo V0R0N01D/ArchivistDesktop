@@ -103,7 +103,8 @@ namespace ArchivistsDesktop
             }
 
             // Проверка, что у пользователя есть роли
-            if (ConnectData.Roles is null)
+            if (ConnectData.Roles is null
+                && ConnectData.Roles!.Count == 0)
             {
                 await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", "У пользователя отсутствует информация о ролях").ShowDialog(this);
                 Login.IsEnabled = true;
@@ -114,8 +115,7 @@ namespace ArchivistsDesktop
 
             // Проверка на наличие ролей для выбора сферы работы (приемная комиссия и архив)
             if (ConnectData.Roles.FirstOrDefault(role => role.Id == 1) is not null
-                || (ConnectData.Roles.FirstOrDefault(role => role.Id >= 100 && role.Id < 200) is not null
-                    && ConnectData.Roles.FirstOrDefault(role => role.Id >= 200 && role.Id < 300) is not null))
+                && ConnectData.Roles.FirstOrDefault(role => role.Id == 6) is not null)
             {
                 // Модальное окно с вопросом, в какую систему хочет зайти пользователь
                 var selectSystem = await MessageBoxManager.GetMessageBoxCustomWindow(new MessageBoxCustomParams
@@ -155,6 +155,24 @@ namespace ArchivistsDesktop
                     Login.IsEnabled = true;
                     return;
                 }
+            }
+            // Проверка наличия роли для открытия архива
+            else if (ConnectData.Roles.FirstOrDefault(role => role.Id == 1) is not null)
+            {
+                UserData.currentWindow = new DefaultWindow(true);
+                UserData.currentWindow.Show();
+                this.Close();
+            }
+            // Проверка наличия роли для открытия приемной комиссии
+            else if (ConnectData.Roles.FirstOrDefault(role => role.Id == 6) is not null)
+            {
+                UserData.currentWindow = new DefaultWindow(false);
+                UserData.currentWindow.Show();
+                this.Close();
+            }
+            else 
+            {
+                await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", "У пользователя отсутствует информация о ролях с которыми можно зайти").ShowDialog(this);
             }
         }
         #endregion
