@@ -12,22 +12,49 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ArchivistsDesktop
-build_property.ProjectDir = C:\Users\Class_User\Desktop\repos\desctop\ArchivistDesktop\ArchivistsDesktop\
+build_property.ProjectDir = C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\
 
-[C:/Users/Class_User/Desktop/repos/desctop/ArchivistDesktop/ArchivistsDesktop/App.axaml]
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Class_User/Desktop/repos/desctop/ArchivistDesktop/ArchivistsDesktop/Styles/StylesWhite.axaml]
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/Styles/StylesWhite.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Class_User/Desktop/repos/desctop/ArchivistDesktop/ArchivistsDesktop/View/Archive/Pages/MainArchivePage.axaml]
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Pages/GroupsPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Class_User/Desktop/repos/desctop/ArchivistDesktop/ArchivistsDesktop/View/Archive/Pages/StudentsPage.axaml]
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Pages/MainArchivePage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Class_User/Desktop/repos/desctop/ArchivistDesktop/ArchivistsDesktop/View/DefaultWindow.axaml]
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Pages/OrdersPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Class_User/Desktop/repos/desctop/ArchivistDesktop/ArchivistsDesktop/View/MainWindow.axaml]
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Pages/StudentsPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Window/AddEditViewCertificateEducationWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Window/AddEditViewGroup.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Window/AddEditViewOrder.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Window/AddEditViewStudentWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Window/AddGradeWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/Archive/Window/AddOrderWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/DefaultWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/flyma/Desktop/diplom/project/ArchivistDesktop/ArchivistsDesktop/View/SettingsWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

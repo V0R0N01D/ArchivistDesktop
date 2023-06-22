@@ -38,9 +38,9 @@ namespace ArchivistsDesktop.View
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void SettingsItem_Click(object? sender, RoutedEventArgs e)
+        private async void SettingsItem_Click(object? sender, RoutedEventArgs e)
         {
-
+            await new SettingsWindow().ShowDialog(this);
         }
 
         /// <summary>

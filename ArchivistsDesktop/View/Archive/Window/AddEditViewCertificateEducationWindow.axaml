@@ -1,0 +1,178 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ArchivistsDesktop.View.Archive.Window.AddEditViewCertificateEducationWindow"
+        Icon="/Source/Image/ava.png"
+        MinHeight="450"
+        MinWidth="800"
+        Title="Добавление аттестата">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+	<Grid
+		Classes="DefaultWindow"
+        RowDefinitions="70,*,70"
+        ColumnDefinitions="*,*,*">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Name="MainText"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Добавление аттестата" />
+        
+        <Grid
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="10"
+            RowDefinitions="*,*,*,*,*"
+            ColumnDefinitions="*,2*,3*,2*">
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="0"
+                Text="ID:" />
+            <TextBox
+                Name="Id"
+                IsEnabled="False"
+                Classes="inGrid"
+                Watermark="Устанавливается автоматически при добавлении"
+                Grid.Row="0"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="Идентификатор*:" />
+            <TextBox
+                Name="Identify"
+                Classes="inGrid"
+                Watermark="Идентификатор"
+                Grid.Row="1"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="0"
+                Text="Тип*:" />
+            <ComboBox
+                Classes="DefaultComboBox"
+                Grid.Row="2"
+                Grid.Column="1"
+                Name="TypeEducation">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock
+                            Text="{Binding Title}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="3"
+                Grid.Column="0"
+                Text="Хранится в колледже:" />
+            <CheckBox
+                Margin="10"
+                Name="IsOriginal"
+                Grid.Row="3"
+                Grid.Column="1" />
+            
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="4"
+                Grid.Column="0"
+                Text="Средняя оценка:" />
+            <TextBlock
+                Classes="inGrid"
+                VerticalAlignment="Center"
+                Margin="10"
+                Name="AverangeGrade"
+                Grid.Row="4"
+                Grid.Column="1" />
+            
+            
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalAlignment="Center"
+                Text="Дата выдачи:" />
+
+            <Viewbox
+                Grid.Row="1"
+                Grid.RowSpan="4"
+                Grid.Column="2">
+                <Calendar
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    SelectionMode="SingleDate"
+                    Name="DateIssue" />
+            </Viewbox>
+            
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalAlignment="Center"
+                Text="Оценки:" />
+            <ListBox
+                Name="GradeList"
+                Grid.Row="1"
+                Grid.Column="3"
+                Grid.RowSpan="3"
+                Margin="10">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid
+                            Classes="DefaultDataList"
+                            ColumnDefinitions="2*,*">
+                            <TextBlock
+                                Grid.Column="0"
+                                Text="{Binding Lesson.Title}"/>
+                            <TextBox
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                Margin="10"
+                                Text="{Binding Score}"
+                                Grid.Column="1"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            
+            <Button
+                Classes="DefaultButton"
+                Name="AddGrade"
+                Grid.Row="4"
+                Grid.Column="3"
+                Margin="10"
+                Content="Добавить"/>
+        </Grid>
+        
+        <Button
+            Classes="DefaultButton"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0"
+            Name="BackPage"
+            Content="Назад" />
+        
+        <Button
+            Classes="DefaultButton"
+            Name="SaveCertificate"
+            Grid.Row="2"
+            Grid.Column="2"
+            HorizontalAlignment="Right"
+            Margin="10"
+            Content="Добавить"/>
+    </Grid>
+</Window>

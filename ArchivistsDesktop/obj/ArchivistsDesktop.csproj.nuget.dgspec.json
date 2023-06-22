@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj": {}
+    "C:\\Users\\flyma\\Desktop\\diplom\\project\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj": {
+    "C:\\Users\\flyma\\Desktop\\diplom\\project\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
+        "projectUniqueName": "C:\\Users\\flyma\\Desktop\\diplom\\project\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
         "projectName": "ArchivistsDesktop",
-        "projectPath": "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
-        "packagesPath": "C:\\Users\\Class_User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\obj\\",
+        "projectPath": "C:\\Users\\flyma\\Desktop\\diplom\\project\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
+        "packagesPath": "C:\\Users\\flyma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flyma\\Desktop\\diplom\\project\\ArchivistDesktop\\ArchivistsDesktop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Class_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\flyma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -57,9 +57,17 @@
               "target": "Package",
               "version": "[0.10.18, )"
             },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
             "MessageBox.Avalonia": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "NameCaseLib": {
+              "target": "Package",
+              "version": "[0.4.2, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
@@ -86,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

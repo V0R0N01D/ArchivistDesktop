@@ -3,31 +3,76 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-			 FontFamily="Verdana"
              x:Class="ArchivistsDesktop.View.ArchiveWindow.Pages.MainArchivePage">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/StylesWhite.axaml" />
+	</UserControl.Styles>
 	<Grid
-		RowDefinitions="*,*,*"
+		Classes="DefaultWindow"
+		RowDefinitions="2*,*,*"
 		ColumnDefinitions="*,*">
-		<!--<TextBlock
+		<TextBlock
+			Classes="DefaultBigText"
+			Grid.Row="0"
+			Grid.Column="0"
+			Grid.ColumnSpan="2"
 			Text="Архив"
-			Grid.ColumnSpan="3"
 			HorizontalAlignment="Center"
-			VerticalAlignment="Center"
-			FontSize="40"/>-->
-		<Button
-			Name="ListStudent"
+			VerticalAlignment="Center"/>
+		<Viewbox
+			Margin="20"
 			Grid.Row="1"
-			Margin="10"
-			HorizontalAlignment="Center"
-			VerticalAlignment="Center"
-			Content="Просмотр списка студентов"/>
-		<Button
-			Name="ListGroup"
+			Grid.Column="0"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch">
+			<Button
+				Classes="DefaultButton"
+				Name="Students"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				Content="Просмотр списка студентов"/>
+		</Viewbox>
+		
+		<Viewbox
+			Margin="20"
 			Grid.Row="1"
 			Grid.Column="1"
-			Margin="10"
-			HorizontalAlignment="Center"
-			VerticalAlignment="Center"
-			Content="Просмотр списка групп"/>
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch">
+			<Button
+				Classes="DefaultButton"
+				Name="Groups"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				Content="Просмотр списка групп        "/>
+		</Viewbox>
+		
+		<Viewbox
+			Margin="20"
+			Grid.Row="2"
+			Grid.Column="0"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch">
+			<Button
+				Classes="DefaultButton"
+				Name="Orders"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				Content="Просмотр списка приказов"/>
+		</Viewbox>
+		
+		<Viewbox
+			Margin="20"
+			Grid.Column="1"
+			Grid.Row="2"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch">
+			<Button
+				Classes="DefaultButton"
+				Name="Applicants"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				Content="Добавление абитуриентов   "/>
+		</Viewbox>
 	</Grid>
 </UserControl>

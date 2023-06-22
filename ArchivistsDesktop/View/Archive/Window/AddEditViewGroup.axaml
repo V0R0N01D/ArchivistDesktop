@@ -1,0 +1,159 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="350"
+        x:Class="ArchivistsDesktop.View.Archive.Window.AddEditViewGroup"
+        Icon="/Source/Image/ava.png"
+        Height="350"
+        Width="600"
+        MinHeight="350"
+        MinWidth="600"
+        Title="Добавление группы">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+    <Grid
+        Classes="DefaultWindow"
+        RowDefinitions="70,*,70"
+        ColumnDefinitions="*,*,*">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Name="MainText"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Добавление группы" />
+
+        <Grid
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="10"
+            RowDefinitions="*,*,*"
+            ColumnDefinitions="*,2*,*,2*">
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="0"
+                Text="ID:" />
+            <TextBox
+                Name="Identify"
+                IsEnabled="False"
+                Classes="inGrid"
+                Text="{Binding Id}"
+                Watermark="Устанавливается автоматически при добавлении"
+                Grid.Row="0"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="Номер группы:" />
+            <TextBox
+                Name="GroupNumber"
+                Classes="inGrid"
+                Text="{Binding GroupNumber}"
+                Watermark="Номер группы"
+                Grid.Row="1"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="0"
+                Text="Курс:" />
+            
+            <ComboBox
+                Classes="DefaultComboBox"
+                Grid.Row="2"
+                Grid.Column="1"
+                Name="Year">
+                <ComboBoxItem
+                    Content="1"/>
+                <ComboBoxItem
+                    Content="2"/>
+                <ComboBoxItem
+                    Content="3"/>
+                <ComboBoxItem
+                    Content="4"/>
+                <ComboBoxItem
+                    Content="Обучение завершено"/>
+            </ComboBox>
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="2"
+                Text="Дата окончания обучения:" />
+            <Viewbox
+                Grid.Row="0"
+                Grid.Column="3">
+                <DatePicker
+                    Name="DateEndEducation"
+                    Classes="inGrid" />
+            </Viewbox>
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="2"
+                Text="Тип обучения:" />
+            <ComboBox
+                Classes="DefaultComboBox"
+                Name="TypeEducation"
+                Grid.Row="1"
+                Grid.Column="3">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock
+                            Text="{Binding Title}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="2"
+                Text="Специальность:" />
+            <ComboBox
+                Classes="DefaultComboBox"
+                Name="Speciality"
+                Grid.Row="2"
+                Grid.Column="3">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel
+                            Orientation="Horizontal">
+                            <TextBlock
+                                Text="{Binding Fgos}"/>
+                            <TextBlock
+                                Text="{Binding Title}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </Grid>
+        
+        <Button
+            Classes="DefaultButton"
+            Name="BackPage"
+            Content="Назад"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0"/>
+        
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="2"
+            Name="SaveGroup"
+            Content="Добавить"
+            Margin="10"
+            HorizontalAlignment="Right" />
+    </Grid>
+</Window>

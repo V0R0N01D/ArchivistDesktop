@@ -1,0 +1,254 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1200" d:DesignHeight="550"
+        x:Class="ArchivistsDesktop.View.Archive.Window.AddEditViewStudentWindow"
+        Icon="/Source/Image/ava.png"
+        Height="550"
+        Width="1200"
+        MinHeight="550"
+        MinWidth="1200"
+        Title="Добавление студента">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+	<Grid
+		Classes="DefaultWindow"
+        RowDefinitions="70,*,70"
+        ColumnDefinitions="*,*,*">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Name="MainText"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Добавление студента" />
+
+        <Grid
+            Margin="10"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Grid.Row="1"
+            RowDefinitions="*,*,*,*,3*"
+            ColumnDefinitions="*,2*,*,2*,2*">
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="0"
+                Text="ID:" />
+            <TextBox
+                Name="Identify"
+                IsEnabled="False"
+                Classes="inGrid"
+                Text="{Binding Id}"
+                Watermark="Устанавливается автоматически при добавлении"
+                Grid.Row="0"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="Фамилия*:" />
+            <TextBox
+                Name="LastName"
+                Classes="inGrid"
+                Text="{Binding LastName}"
+                Watermark="Фамилия"
+                Grid.Row="1"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="0"
+                Text="Имя*:" />
+            <TextBox
+                Name="FirstName"
+                Classes="inGrid"
+                Text="{Binding FirstName}"
+                Watermark="Имя"
+                Grid.Row="2"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="3"
+                Grid.Column="0"
+                Text="Отчество:" />
+            <TextBox
+                Name="Patronymic"
+                Classes="inGrid"
+                Text="{Binding Patronymic}"
+                Watermark="Отчество"
+                Grid.Row="3"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="4"
+                Grid.Column="0"
+                Text="Аттестат:" />
+            <StackPanel
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Margin="10"
+                Spacing="10"
+                Grid.Row="4"
+                Grid.Column="1">
+                <TextBlock
+                    Classes="DefaultText"
+                    Text="Аттестат отсутствует "
+                    Name="AverangeGrade" />
+                <Button
+                    Classes="DefaultButton"
+                    Name="CheckCertificateEducation"
+                    Content="Добавить аттестат" />
+            </StackPanel>
+
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="2"
+                Text="Серия паспорта:" />
+            <TextBox
+                Name="PassportSerial"
+                Classes="inGrid"
+                Text="{Binding PassportSerial}"
+                Watermark="Серия паспорта"
+                Grid.Row="0"
+                Grid.Column="3" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="2"
+                Text="Номер паспорта:" />
+            <TextBox
+                Name="PassportNumber"
+                Classes="inGrid"
+                Text="{Binding PassportNumber}"
+                Watermark="Номер паспорта"
+                Grid.Row="1"
+                Grid.Column="3" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="2"
+                Text="Расположение документов:" />
+            <TextBox
+                Name="DocumentPlace"
+                Classes="inGrid"
+                Text="{Binding DocumentPlace}"
+                Watermark="Расположение документов"
+                Grid.Row="2"
+                Grid.Column="3" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="3"
+                Grid.Column="2"
+                Text="Обучается:" />
+            <CheckBox
+                Margin="10"
+                Name="IsStuding"
+                IsChecked="{Binding IsStuding}"
+                Grid.Row="3"
+                Grid.Column="3" />
+            
+            <StackPanel
+                Grid.Row="4"
+                Grid.Column="2">
+                <TextBlock
+                    Classes="inGrid"
+                    Text="Приказы:" />
+                <Button
+                    Classes="DefaultButton"
+                    HorizontalAlignment="Right"
+                    Name="AddOrder"
+                    Content="Добавить"/>
+            </StackPanel>
+            
+            
+            <ListBox
+                Name="Orders"
+                Grid.Row="4"
+                Margin="10"
+                Grid.Column="3">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid
+                            Classes="DataList"
+                            ColumnDefinitions="*,*,*">
+                            <TextBlock
+                                Grid.Column="0"
+                                Text="{Binding StringFormat=Номер приказа: {0}, Path=Order.Number}"/>
+                            <StackPanel
+                                Grid.Column="1">
+                                <TextBlock
+                                    Text="{Binding StringFormat=Дата приказа: {0}, Path=Order.OrderDateString}"/>
+                                <TextBlock
+                                    Text="{Binding StringFormat=Группа: {0}, Path=Order.Group.GroupNumber}"/>
+                            </StackPanel>
+                            <TextBlock
+                                Grid.Column="2"
+                                Text="{Binding StringFormat=Тип приказа: {0}, Path=Order.TypeOrder.Title}"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                HorizontalAlignment="Center"
+                Grid.Column="4"
+                Text="Дата рождения*:" />
+
+            <Viewbox
+                Grid.Row="1"
+                Grid.RowSpan="4"
+                Grid.Column="4">
+                <Calendar
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    SelectionMode="SingleDate"
+                    Name="DateBirthday" />
+            </Viewbox>
+          
+
+        </Grid>
+
+        <StackPanel
+            Margin="10"
+            Orientation="Horizontal"
+            Spacing="10"
+            Grid.Row="2"
+            Grid.Column="0">
+            <Button
+                Classes="DefaultButton"
+                Name="BackPage"
+                Content="Назад" />
+            <Button
+                Classes="DefaultButton"
+                Name="MakeDocx"
+                Content="Создать документ" />
+        </StackPanel>
+
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="2"
+            Name="SaveStudent"
+            Content="Добавить"
+            Margin="10"
+            HorizontalAlignment="Right" />
+
+    </Grid>
+</Window>

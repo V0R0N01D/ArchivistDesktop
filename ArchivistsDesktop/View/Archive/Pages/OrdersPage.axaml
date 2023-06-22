@@ -1,0 +1,148 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArchivistsDesktop.View.Archive.Pages.OrdersPage">
+    <UserControl.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </UserControl.Styles>
+	<Grid
+		Classes="DefaultWindow"
+        RowDefinitions="*,4*,70"
+        ColumnDefinitions="*,*,*,*">
+        <ListBox
+            Name="Orders"
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="3"
+            Grid.Column="0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid
+                        Classes="DefaultDataList"
+                        ColumnDefinitions="*,*">
+                        <TextBlock
+                            Grid.Column="0">
+                            <TextBlock.Text>
+                                <MultiBinding
+                                    StringFormat="Приказ {0} от {1}">
+                                    <Binding
+                                        Path="Number" />
+                                    <Binding
+                                        Path="OrderDateString" />
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+
+                        <StackPanel
+                            Grid.Column="1">
+                            <TextBlock
+                                Text="{Binding StringFormat=Группа: {0}, Path=Group.GroupNumber}" />
+                            <TextBlock
+                                Text="{Binding StringFormat=Тип приказа: {0}, Path=TypeOrder.Title}" />
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            IsVisible="False"
+            Name="NoResult"
+            HorizontalAlignment="Center"
+            Margin="10"
+            Text="Нет результата, который соответствует запросу" />
+
+        <TextBox
+            Classes="DefaultTextBox"
+            Name="SearchInput"
+            Watermark="Поиск"
+            Margin="10"
+            Grid.Row="0"
+            Grid.Column="3"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch" />
+
+        <StackPanel
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="10"
+            Spacing="10"
+            Grid.Row="1"
+            Grid.Column="3">
+            <Border
+                BorderThickness="1"
+                BorderBrush="White">
+                <StackPanel
+                    Margin="5"
+                    Spacing="10">
+                    <TextBlock
+                        Classes="DefaultText"
+                        Margin="2,5,0,0"
+                        Text="Дата приказа с:"/>
+                    <Viewbox>
+                        <DatePicker
+                            Name="StartDate" />
+                    </Viewbox>
+                    <TextBlock
+                        Classes="DefaultText"
+                        Text="по:"/>
+                    <Viewbox>
+                        <DatePicker
+                            Name="EndDate" />
+                    </Viewbox>
+                    
+                    <Button
+                        Name="ClearDate"
+                        Classes="DefaultButton"
+                        Content="Сбросить"/>
+                </StackPanel>
+            </Border>
+            
+            <ComboBox
+                Classes="DefaultComboBox"
+                Margin="0"
+                Name="FilterTypeOrder"
+                SelectedIndex="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock
+                            Text="{Binding Title}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <Button
+                Classes="DefaultButton"
+                Content="Найти"
+                Name="Search"
+                HorizontalContentAlignment="Center"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" />
+        </StackPanel>
+
+
+        <Button
+            Classes="DefaultButton"
+            Name="BackPage"
+            Content="Назад"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0" />
+
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="1"
+            Name="AddOrder"
+            IsVisible="False"
+            Content="Добавить приказ" />
+    </Grid>
+</UserControl>

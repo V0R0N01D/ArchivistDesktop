@@ -1,0 +1,64 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="470" d:DesignHeight="250"
+        x:Class="ArchivistsDesktop.View.SettingsWindow"
+        Icon="/Source/Image/ava.png"
+        Width="470"
+        Height="250"
+        CanResize="False"
+        Title="Настройки">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+    
+    <Grid
+		Classes="DefaultWindow"
+        RowDefinitions="*,2*,*"
+        ColumnDefinitions="*,*,*">
+        <TextBlock
+			Classes="DefaultBigText"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Text="Настройки"/>
+
+		<TextBlock
+			Classes="DefaultText"
+            Grid.Row="1"
+            Grid.Column="0"
+            HorizontalAlignment="Right"
+            Margin="10"
+            Text="Адрес сервера:"/>
+        
+        <TextBox
+			Classes="DefaultTextBox"
+            Grid.Row="1"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Name="Address"
+            Margin="0,4,40,10"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Stretch"/>
+        
+        <Button
+            Classes="DefaultButton"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0"
+            Name="BackPage"
+            Content="Назад" />
+        
+        <Button
+            Classes="DefaultButton"
+            Name="SaveSetting"
+            Grid.Row="2"
+            Grid.Column="2"
+            HorizontalAlignment="Right"
+            Margin="10"
+            Content="Сохранить"/>
+    </Grid>
+</Window>

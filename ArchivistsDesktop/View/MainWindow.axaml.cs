@@ -12,6 +12,11 @@ using ArchivistsDesktop.Contracts.ResponseClass;
 using System.Linq;
 using MessageBox.Avalonia.Models;
 using ArchivistsDesktop.View;
+using MessageBox.Avalonia.Enums;
+
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Wordprocessing;
+using System.IO;
 
 namespace ArchivistsDesktop
 {
@@ -31,11 +36,22 @@ namespace ArchivistsDesktop
         /// </summary>
         private void InitializeEvents()
         {
+            Settings.Click += SettingsOnClick;
             Login.Click += Login_Click;
+        }
 
+        /// <summary>
+        /// Настройки
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void SettingsOnClick(object? sender, RoutedEventArgs e)
+        {
+            await new SettingsWindow().ShowDialog(this);
         }
 
         #region Обработка событий
+
         /// <summary>
         /// Обработчик нажатия на кнопку авторизации
         /// </summary>
@@ -57,7 +73,19 @@ namespace ArchivistsDesktop
             if (string.IsNullOrWhiteSpace(login))
             {
                 LoginInput.BorderBrush = new SolidColorBrush(Colors.Red);
-                await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", "Поле логин пустое", MessageBox.Avalonia.Enums.ButtonEnum.Ok).ShowDialog(this);
+                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                {
+                    WindowIcon = this.Icon,
+                    CanResize = true,
+                    MinWidth = 300,
+                    MaxWidth = 1920,
+                    MinHeight = 100,
+                    MaxHeight = 300,
+                    FontFamily = this.FontFamily,
+                    ContentTitle = "Ошибка",
+                    ContentMessage = "Поле логин пустое",
+                    ButtonDefinitions = ButtonEnum.Ok
+                }).ShowDialog(this);
                 Login.IsEnabled = true;
                 return;
             }
@@ -66,7 +94,19 @@ namespace ArchivistsDesktop
             if (string.IsNullOrWhiteSpace(password))
             {
                 PasswordInput.BorderBrush = new SolidColorBrush(Colors.Red);
-                await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", "Поле пароль пустое").ShowDialog(this);
+                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                {
+                    WindowIcon = this.Icon,
+                    CanResize = true,
+                    MinWidth = 300,
+                    MaxWidth = 1920,
+                    MinHeight = 100,
+                    MaxHeight = 300,
+                    FontFamily = this.FontFamily,
+                    ContentTitle = "Ошибка",
+                    ContentMessage = "Поле пароль пустое",
+                    ButtonDefinitions = ButtonEnum.Ok
+                }).ShowDialog(this);
                 Login.IsEnabled = true;
                 return;
             }
@@ -83,7 +123,21 @@ namespace ArchivistsDesktop
                     var response = await ConnectData.Client.SendAsync(request);
                     if (!response.IsSuccessStatusCode)
                     {
-                        await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", $"Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}").ShowDialog(this);
+                        await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                        {
+                            WindowIcon = this.Icon,
+                            CanResize = true,
+                            MinWidth = 300,
+                            MaxWidth = 1920,
+                            MinHeight = 100,
+                            MaxHeight = 300,
+                            FontFamily = this.FontFamily,
+                            ContentTitle = "Ошибка",
+                            ContentMessage =
+                                $"Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}",
+                            ButtonDefinitions = ButtonEnum.Ok
+                        }).ShowDialog(this);
+
                         Login.IsEnabled = true;
                         return;
                     }
@@ -97,83 +151,52 @@ namespace ArchivistsDesktop
             // Перехват ошибок связи с api
             catch (Exception ex)
             {
-                await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", $"Ошибка соединения: {ex.Message}").ShowDialog(this);
-                Login.IsEnabled = true;
-                return;
-            }
-
-            // Проверка, что у пользователя есть роли
-            if (ConnectData.Roles is null
-                && ConnectData.Roles!.Count == 0)
-            {
-                await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", "У пользователя отсутствует информация о ролях").ShowDialog(this);
+                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                {
+                    WindowIcon = this.Icon,
+                    CanResize = true,
+                    MinWidth = 300,
+                    MaxWidth = 1920,
+                    MinHeight = 100,
+                    MaxHeight = 300,
+                    FontFamily = this.FontFamily,
+                    ContentTitle = "Ошибка",
+                    ContentMessage =
+                        $"Ошибка соединения: {ex.Message}",
+                    ButtonDefinitions = ButtonEnum.Ok
+                }).ShowDialog(this);
                 Login.IsEnabled = true;
                 return;
             }
 
             // Проверка на обновление пароля (next)
-
-            // Проверка на наличие ролей для выбора сферы работы (приемная комиссия и архив)
-            if (ConnectData.Roles.FirstOrDefault(role => role.Id == 1) is not null
-                && ConnectData.Roles.FirstOrDefault(role => role.Id == 6) is not null)
-            {
-                // Модальное окно с вопросом, в какую систему хочет зайти пользователь
-                var selectSystem = await MessageBoxManager.GetMessageBoxCustomWindow(new MessageBoxCustomParams
-                {
-                    ContentMessage = "В какую системы вы хотите зайти?",
-                    ButtonDefinitions = new[]
-                    {
-                        new ButtonDefinition
-                        {
-                            Name = "Приемная комиссия"
-                        },
-                        new ButtonDefinition
-                        {
-                            Name = "Архив"
-                        }
-                    },
-                    WindowStartupLocation = WindowStartupLocation.CenterOwner
-                }).ShowDialog(this);
-
-                // Выбрана система архива
-                if (selectSystem == "Архив")
-                {
-                    UserData.currentWindow = new DefaultWindow(true);
-                    UserData.currentWindow.Show();
-                    this.Close();
-                }
-                // Выбрана система приемной комиссии
-                else if (selectSystem == "Приемная комиссия")
-                {
-                    UserData.currentWindow = new DefaultWindow(false);
-                    UserData.currentWindow.Show();
-                    this.Close();
-                }
-                else
-                {
-                    ConnectData.ClearUserData();
-                    Login.IsEnabled = true;
-                    return;
-                }
-            }
+            
             // Проверка наличия роли для открытия архива
-            else if (ConnectData.Roles.FirstOrDefault(role => role.Id == 1) is not null)
+            if (ConnectData.Roles!.FirstOrDefault(role => role.Id == 1) is not null)
             {
                 UserData.currentWindow = new DefaultWindow(true);
                 UserData.currentWindow.Show();
                 this.Close();
             }
-            // Проверка наличия роли для открытия приемной комиссии
-            else if (ConnectData.Roles.FirstOrDefault(role => role.Id == 6) is not null)
+            else
             {
-                UserData.currentWindow = new DefaultWindow(false);
-                UserData.currentWindow.Show();
-                this.Close();
+                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                {
+                    WindowIcon = this.Icon,
+                    CanResize = true,
+                    MinWidth = 300,
+                    MaxWidth = 1920,
+                    MinHeight = 100,
+                    MaxHeight = 300,
+                    FontFamily = this.FontFamily,
+                    ContentTitle = "Ошибка",
+                    ContentMessage =
+                        "У пользователя отсутствует информация о ролях с которыми можно зайти",
+                    ButtonDefinitions = ButtonEnum.Ok
+                }).ShowDialog(this);
             }
-            else 
-            {
-                await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", "У пользователя отсутствует информация о ролях с которыми можно зайти").ShowDialog(this);
-            }
+            
+            Login.IsEnabled = true;
         }
         #endregion
     }

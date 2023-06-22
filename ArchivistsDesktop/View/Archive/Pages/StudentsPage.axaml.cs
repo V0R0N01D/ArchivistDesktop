@@ -5,10 +5,10 @@ using MessageBox.Avalonia;
 using System.Net.Http;
 using System;
 using System.Net.Http.Json;
-using ArchivistAPI.Contracts.ResponseClass;
-using System.Collections.ObjectModel;
+using ArchivistsDesktop.Contracts.ResponseClass;
 using System.Collections.Generic;
 using System.Linq;
+using ArchivistsDesktop.View.Archive.Window;
 using MessageBox.Avalonia.DTO;
 using MessageBox.Avalonia.Enums;
 
@@ -25,8 +25,6 @@ namespace ArchivistsDesktop.View.Archive.Pages
             LoadRoleFunction();
 
             InitializeEvent();
-
-            LoadClientData();
         }
 
         /// <summary>
@@ -36,6 +34,49 @@ namespace ArchivistsDesktop.View.Archive.Pages
         {
             BackPage.Click += BackPage_Click;
             Search.Click += SearchOnClick;
+            StudentList.DoubleTapped += StudentListOnDoubleTapped;
+        }
+
+        /// <summary>
+        /// Ïנמסלמענ האםםûץ סעףהוםעא
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void StudentListOnDoubleTapped(object? sender, RoutedEventArgs e)
+        {
+            StudentList.IsEnabled = false;
+            // Ñענמךא אגעמנטחאצטט ג api
+            var authString = Auth.GetAuth(ConnectData.Login, ConnectData.Password);
+
+            try
+            {
+                var selectStudent = StudentList.SelectedItem as StudentsResponse;
+
+                using var request = new HttpRequestMessage(HttpMethod.Get, $"Students/{selectStudent!.Id}");
+                request.Headers.Add("AUTH", authString);
+                var response = await ConnectData.Client.SendAsync(request);
+                if (!response.IsSuccessStatusCode)
+                {
+                    await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא",
+                            $"Îרטבךא. Êמה: {response.StatusCode}, מרטבךא: {await response.Content.ReadAsStringAsync()}")
+                        .ShowDialog(UserData.currentWindow);
+                    StudentList.IsEnabled = true;
+                    return;
+                }
+                
+                var student = await response.Content.ReadFromJsonAsync<EditStudentResponse>();
+
+                if (student is not null)
+                {
+                    await new AddEditViewStudentWindow(student, true).ShowDialog(UserData.currentWindow);
+                }
+            }
+            catch (Exception ex)
+            {
+                await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא", $"Îרטבךא סמוהטםוםטÿ: {ex.Message}")
+                    .ShowDialog(UserData.currentWindow);
+            }
+            StudentList.IsEnabled = true;
         }
 
         /// <summary>
@@ -43,8 +84,14 @@ namespace ArchivistsDesktop.View.Archive.Pages
         /// </summary>
         private void LoadRoleFunction()
         {
+            if (ConnectData.Roles!.FirstOrDefault(role => role.Id == 9) is not null)
+            {
+                AddStudent.IsVisible = true;
+                AddStudent.Click += AddStudentOnClick;
+            }
+            
             var functionMenu = new List<MenuItem>();
-            if (ConnectData.Roles.FirstOrDefault(role => role.Id == 2) is not null)
+            if (ConnectData.Roles!.FirstOrDefault(role => role.Id == 2) is not null)
             {
                 var menuItem = new MenuItem()
                 {
@@ -54,7 +101,7 @@ namespace ArchivistsDesktop.View.Archive.Pages
                 functionMenu.Add(menuItem);
             }
 
-            if (ConnectData.Roles.FirstOrDefault(role => role.Id == 3) is not null)
+            if (ConnectData.Roles!.FirstOrDefault(role => role.Id == 3) is not null)
             {
                 var menuItem = new MenuItem()
                 {
@@ -63,11 +110,22 @@ namespace ArchivistsDesktop.View.Archive.Pages
                 menuItem.Click += RemoveMenu_Click;
                 functionMenu.Add(menuItem);
             }
-
+            
             StudentList.ContextMenu = new ContextMenu()
             {
                 Items = functionMenu
             };
+        }
+
+        /// <summary>
+        /// Äמבאגכוםטו םמגמדמ סעףהוםעא
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void AddStudentOnClick(object? sender, RoutedEventArgs e)
+        {
+            await new AddEditViewStudentWindow().ShowDialog(UserData.currentWindow);
+            LoadStudentData();
         }
 
         /// <summary>
@@ -77,6 +135,11 @@ namespace ArchivistsDesktop.View.Archive.Pages
         /// <param name="e"></param>
         private async void RemoveMenu_Click(object? sender, RoutedEventArgs e)
         {
+            if (StudentList.SelectedItem is not StudentsResponse selectStudent)
+            {
+                return;
+            }
+            
             var res = await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
             {
                 WindowIcon = UserData.currentWindow!.Icon,
@@ -85,7 +148,7 @@ namespace ArchivistsDesktop.View.Archive.Pages
                 ButtonDefinitions = ButtonEnum.YesNo
             }).ShowDialog(UserData.currentWindow!);
 
-            if (res == ButtonResult.No)
+            if (res != ButtonResult.Yes)
             {
                 return;
             }
@@ -95,27 +158,32 @@ namespace ArchivistsDesktop.View.Archive.Pages
 
             try
             {
-                var selectStudent = StudentList.SelectedItem as StudentsResponse;
-
                 using var request = new HttpRequestMessage(HttpMethod.Delete, $"Students/{selectStudent!.Id}");
                 request.Headers.Add("AUTH", authString);
                 var response = await ConnectData.Client.SendAsync(request);
                 if (!response.IsSuccessStatusCode)
-                {
-                    await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא",
-                            $"Óהאכוםטו םו גûןמכםוםמ. Êמה: {response.StatusCode}, מרטבךא: {await response.Content.ReadAsStringAsync()}")
-                        .ShowDialog(UserData.currentWindow);
+                { 
+                    await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                    {
+                        WindowIcon = UserData.currentWindow!.Icon,
+                        ContentTitle = "Îרטבךא",
+                        ContentMessage = $"Óהאכוםטו םו גûןמכםוםמ. Êמה: {response.StatusCode}, מרטבךא: {await response.Content.ReadAsStringAsync()}",
+                        ButtonDefinitions = ButtonEnum.Ok
+                    }).ShowDialog(UserData.currentWindow!);
                     return;
                 }
-                LoadClientData();
+                LoadStudentData();
             }
             catch (Exception ex)
             {
-                await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא", $"Îרטבךא סמוהטםוםטÿ: {ex.Message}")
-                    .ShowDialog(UserData.currentWindow);
-                return;
+                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                {
+                    WindowIcon = UserData.currentWindow!.Icon,
+                    ContentTitle = "Îרטבךא",
+                    ContentMessage = $"Îרטבךא סמוהטםוםטÿ: {ex.Message}",
+                    ButtonDefinitions = ButtonEnum.Ok
+                }).ShowDialog(UserData.currentWindow!);
             }
-
         }
 
         /// <summary>
@@ -123,9 +191,40 @@ namespace ArchivistsDesktop.View.Archive.Pages
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void EditMenu_Click(object? sender, RoutedEventArgs e)
+        private async void EditMenu_Click(object? sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            // Ñענמךא אגעמנטחאצטט ג api
+            var authString = Auth.GetAuth(ConnectData.Login, ConnectData.Password);
+
+            try
+            {
+                var selectStudent = StudentList.SelectedItem as StudentsResponse;
+
+                using var request = new HttpRequestMessage(HttpMethod.Get, $"Students/{selectStudent!.Id}");
+                request.Headers.Add("AUTH", authString);
+                var response = await ConnectData.Client.SendAsync(request);
+                if (!response.IsSuccessStatusCode)
+                {
+                    await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא",
+                            $"Îרטבךא. Êמה: {response.StatusCode}, מרטבךא: {await response.Content.ReadAsStringAsync()}")
+                        .ShowDialog(UserData.currentWindow);
+                    return;
+                }
+                
+                var student = await response.Content.ReadFromJsonAsync<EditStudentResponse>();
+
+                if (student is not null)
+                {
+                    await new AddEditViewStudentWindow(student, false).ShowDialog(UserData.currentWindow);
+                }
+
+                LoadStudentData();
+            }
+            catch (Exception ex)
+            {
+                await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא", $"Îרטבךא סמוהטםוםטÿ: {ex.Message}")
+                    .ShowDialog(UserData.currentWindow);
+            }
         }
 
         /// <summary>
@@ -135,7 +234,7 @@ namespace ArchivistsDesktop.View.Archive.Pages
         /// <param name="e"></param>
         private void SearchOnClick(object? sender, RoutedEventArgs e)
         {
-            LoadClientData();
+            LoadStudentData();
         }
 
         /// <summary>
@@ -151,7 +250,7 @@ namespace ArchivistsDesktop.View.Archive.Pages
         /// <summary>
         /// Çאדנףחךא ט מעבנאזוםטו טםפמנלאצטט מ סעףהוםעאץ
         /// </summary>
-        private async void LoadClientData()
+        private async void LoadStudentData()
         {
             var searchText = SearchInput.Text;
 
@@ -170,12 +269,6 @@ namespace ArchivistsDesktop.View.Archive.Pages
 
             // Îעךכ‏קוםטו גמחלמזםמסעט םאזאעטÿ םא ךםמןךף ןמטסךא
             Search.IsEnabled = false;
-
-            // Ïנמגונךא הכÿ ןנוהןנמסלמענא ףהאכטעüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüü
-            if (ConnectData.Login == "")
-            {
-                return;
-            }
 
             // Ñענמךא אגעמנטחאצטט ג api
             var authString = Auth.GetAuth(ConnectData.Login, ConnectData.Password);
@@ -207,7 +300,6 @@ namespace ArchivistsDesktop.View.Archive.Pages
             {
                 await MessageBoxManager.GetMessageBoxStandardWindow("Îרטבךא", $"Îרטבךא סמוהטםוםטÿ: {ex.Message}")
                     .ShowDialog(UserData.currentWindow);
-                return;
             }
 
             // Âךכ‏קוםטו גמחלמזםמסעט םאזאעטÿ םא ךםמןךף ןמטסךא

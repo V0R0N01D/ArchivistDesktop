@@ -1,0 +1,75 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="170"
+        x:Class="ArchivistsDesktop.View.Archive.Window.AddGradeWindow"
+        Icon="/Source/Image/ava.png"
+        Height="170"
+        Width="450"
+        CanResize="False"
+        Title="Добавление оценки">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+	<Grid
+		Classes="DefaultWindow"
+        RowDefinitions="*,*,*"
+        ColumnDefinitions="*,2*,*">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Grid.Row="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Text="Добавление оценки"/>
+        
+        <TextBlock
+            Classes="DefaultText"
+            Grid.Row="1"
+            Grid.Column="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Предмет:"/>
+        
+        <ComboBox
+            Classes="DefaultComboBox"
+            Grid.Row="1"
+            Grid.Column="1"
+            Name="Lessons">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock
+                        Text="{Binding Title}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        
+        <TextBox
+            Classes="DefaultTextBox"
+            Grid.Row="1"
+            Grid.Column="2"
+            Name="Score"
+            Margin="10"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"/>
+        
+        <Button
+            Classes="DefaultButton"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0"
+            Name="BackPage"
+            Content="Назад" />
+        
+        <Button
+            Classes="DefaultButton"
+            Name="SaveScore"
+            Grid.Row="2"
+            Grid.Column="2"
+            HorizontalAlignment="Right"
+            Margin="10"
+            Content="Добавить"/>
+    </Grid>
+</Window>

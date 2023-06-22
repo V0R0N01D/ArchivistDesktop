@@ -2,19 +2,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:responseClass="clr-namespace:ArchivistAPI.Contracts.ResponseClass"
+             xmlns:responseClass="clr-namespace:ArchivistsDesktop.Contracts.ResponseClass"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="ArchivistsDesktop.View.Archive.Pages.StudentsPage">
-    <Grid
+    <UserControl.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </UserControl.Styles>
+	<Grid
+		Classes="DefaultWindow"
         RowDefinitions="*,4*,70"
         ColumnDefinitions="*,*,*,*">
         <ListBox
+            Grid.Row="0"
+            Grid.Column="0"
             Name="StudentList"
             Grid.RowSpan="2"
             Grid.ColumnSpan="3">
             <ListBox.ItemTemplate>
                 <DataTemplate DataType="responseClass:StudentsResponse">
                     <Grid
+                        Classes="DefaultDataList"
                         ColumnDefinitions="*,*">
                         <StackPanel
                             Grid.Column="0"
@@ -42,8 +49,6 @@
                             <TextBlock
                                 Text="{Binding StringFormat=Группа: {0}, Path=GroupTitle}" />
                             <TextBlock
-                                Text="{Binding StringFormat=Дата начала обучения: {0}, Path=DateStartEducation}" />
-                            <TextBlock
                                 Text="{Binding StringFormat=Обучается: {0}, Path=IsStudingTitle}" />
                         </StackPanel>
 
@@ -51,8 +56,9 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        
+
         <TextBlock
+            Classes="DefaultBigText"
             Grid.Row="0"
             Grid.Column="0"
             Grid.ColumnSpan="3"
@@ -60,10 +66,10 @@
             Name="NoResult"
             HorizontalAlignment="Center"
             Margin="10"
-            FontSize="20"
-            Text="Нет результата, который соответствует запросу"/>
+            Text="Нет результата, который соответствует запросу" />
 
         <TextBox
+            Classes="DefaultTextBox"
             Name="SearchInput"
             Watermark="Поиск"
             Margin="10"
@@ -80,32 +86,44 @@
             Grid.Row="1"
             Grid.Column="3">
             <ComboBox
+                Classes="DefaultComboBox"
+                Margin="0"
                 Name="FilterIsStudent"
                 SelectedIndex="0"
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch">
                 <ComboBoxItem
-                    Content="Без фильтрации"/>
+                    Content="Без фильтрации" />
                 <ComboBoxItem
-                    Content="Только обучающиеся"/>
+                    Content="Только обучающиеся" />
                 <ComboBoxItem
-                    Content="Только не обучающиеся"/>
+                    Content="Только не обучающиеся" />
             </ComboBox>
-            
+
             <Button
+                Classes="DefaultButton"
                 Content="Найти"
                 Name="Search"
                 HorizontalContentAlignment="Center"
                 HorizontalAlignment="Stretch"
-                VerticalAlignment="Stretch"/>
+                VerticalAlignment="Stretch" />
         </StackPanel>
 
 
         <Button
+            Classes="DefaultButton"
             Name="BackPage"
             Content="Назад"
             Margin="10"
             Grid.Row="2"
             Grid.Column="0" />
+
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="1"
+            Name="AddStudent"
+            IsVisible="False"
+            Content="Добавить студента" />
     </Grid>
 </UserControl>

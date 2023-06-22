@@ -1,0 +1,145 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ArchivistsDesktop.View.Archive.Window.AddEditViewOrder"
+        Icon="/Source/Image/ava.png"
+        Height="350"
+        Width="600"
+        MinHeight="350"
+        MinWidth="600"
+        Title="Добавление приказа">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+    <Grid
+        Classes="DefaultWindow"
+        RowDefinitions="70,*,70"
+        ColumnDefinitions="*,*,*">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Name="MainText"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Добавление приказа" />
+
+        <Grid
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="10"
+            RowDefinitions="*,*,*"
+            ColumnDefinitions="*,2*,*,2*">
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="0"
+                Text="ID:" />
+            <TextBox
+                Name="Identify"
+                IsEnabled="False"
+                Classes="inGrid"
+                Text="{Binding Id}"
+                Watermark="Устанавливается автоматически при добавлении"
+                Grid.Row="0"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="Номер приказа:" />
+            <TextBox
+                Name="OrderNumber"
+                Classes="inGrid"
+                Text="{Binding Number}"
+                Watermark="Номер приказа"
+                Grid.Row="1"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="0"
+                Text="Тип приказа:" />
+            
+            <ComboBox
+                Classes="DefaultComboBox"
+                Grid.Row="2"
+                Grid.Column="1"
+                Name="TypeOrder">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock
+                            Text="{Binding Title}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="2"
+                Text="Дата приказа:" />
+            <Viewbox
+                Grid.Row="0"
+                Grid.Column="3">
+                <DatePicker
+                    Name="DateOrder"
+                    Classes="inGrid" />
+            </Viewbox>
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="2"
+                Text="Дата начала действия:" />
+            <Viewbox
+                Grid.Row="1"
+                Grid.Column="3">
+                <DatePicker
+                    Name="DateStartOrder"
+                    Classes="inGrid" />
+            </Viewbox>
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="2"
+                Text="Группа:" />
+            <ComboBox
+                Classes="DefaultComboBox"
+                Name="Group"
+                Grid.Row="2"
+                Grid.Column="3">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock
+                            Text="{Binding GroupNumber}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </Grid>
+        
+        <Button
+            Classes="DefaultButton"
+            Name="BackPage"
+            Content="Назад"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0"/>
+        
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="2"
+            Name="SaveOrder"
+            Content="Добавить"
+            Margin="10"
+            HorizontalAlignment="Right" />
+    </Grid>
+</Window>

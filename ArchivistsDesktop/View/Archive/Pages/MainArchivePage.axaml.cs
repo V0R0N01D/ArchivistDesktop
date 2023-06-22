@@ -22,29 +22,51 @@ namespace ArchivistsDesktop.View.ArchiveWindow.Pages
         /// </summary>
         private void InitializeEvent()
         {
-            ListStudent.Click += ListStudent_Click;
-            ListGroup.Click += ListGroup_Click;
+            Applicants.Click += ApplicantsOnClick;
+            Students.Click += ListStudent_Click;
+            Groups.Click += ListGroup_Click;
+            Orders.Click += OrdersOnClick;
         }
 
         #region События
         /// <summary>
-        /// Просмотр списка студентов
+        /// Просмотр списка групп
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void ListGroup_Click(object? sender, RoutedEventArgs e)
         {
-            
+            UserData.currentWindow!.DisplayPage(new GroupsPage());
         }
 
         /// <summary>
-        /// Просмотр списка групп
+        /// Просмотр списка студентов
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void ListStudent_Click(object? sender, RoutedEventArgs e)
         {
             UserData.currentWindow!.DisplayPage(new StudentsPage());
+        }
+        
+        /// <summary>
+        /// Просмотр списка приказов
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void OrdersOnClick(object? sender, RoutedEventArgs e)
+        {
+            UserData.currentWindow!.DisplayPage(new OrdersPage());
+        }
+        
+        /// <summary>
+        /// Добавление студентов через csv/excel
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ApplicantsOnClick(object? sender, RoutedEventArgs e)
+        {
+            
         }
         #endregion
     }

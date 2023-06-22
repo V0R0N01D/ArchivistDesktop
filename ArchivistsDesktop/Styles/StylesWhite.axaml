@@ -1,29 +1,252 @@
 ﻿<Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <Design.PreviewWith>
-        <Border Padding="20"
+	<Design.PreviewWith>
+		<Border Padding="20"
 				Width="600"
 				Height="600">
 			<Grid
+				Classes="DefaultWindow"
 				RowDefinitions="*,*,*">
 				<Button
+					Classes="DefaultButton"
 					Content="default button"/>
+
 				<TextBlock
+					Classes="DefaultText"
 					Text="default text"
 					Grid.Row="1"/>
-			</Grid>
-        </Border>
-    </Design.PreviewWith>
 
+
+				<TextBox
+					Classes="DefaultTextBox"
+					Grid.Row="2"
+					Margin="10"
+					Text="wdadwdwaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawdwadwadwadwadwadgdgrgdrfffdxfsdfseesfesftjfhfgdfgfddgdj"/>
+			</Grid>
+		</Border>
+	</Design.PreviewWith>
+
+	<!-- Стандартный grid в основе всех окон -->
 	<Style
-		Selector="TextBlock">
+		Selector="Grid.DefaultWindow">
+		<Setter Property="Background"
+		        Value="#1e5dd1"/>
+	</Style>
+
+	<!-- Стандартный grid в основе всех списков -->
+	<Style
+		Selector="Grid.DefaultDataList">
+		<Setter Property="Background"
+		        Value="White"/>
+	</Style>
+
+	<!-- Стандартный стиль в основе всех списков -->
+	<Style
+		Selector="ListBox.DefaultList">
+		<Setter Property="Background"
+		        Value="White"/>
+	</Style>
+	
+	
+
+	<!-- Стандартный большой текст  -->
+	<Style
+		Selector="TextBlock.DefaultBigText">
+		<Setter Property="FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="FontSize"
+				Value="30"/>
 		<Setter Property="TextWrapping"
-				Value="Wrap"/>
+		        Value="Wrap"/>
+		<Setter Property="Foreground"
+		        Value="White"/>
 	</Style>
 
 	<Style
-		Selector="TextBox">
+		Selector="TextBlock.DefaultText">
+		<Setter Property="FontFamily"
+		        Value="Roboto"/>
 		<Setter Property="TextWrapping"
-				Value="Wrap"/>
+		        Value="Wrap"/>
+		<Setter Property="Foreground"
+		        Value="White"/>
+	</Style>
+	
+	<Style
+		Selector="TextBlock.inGrid">
+		<Setter Property="FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="Margin"
+		        Value="10"/>
+		<Setter Property="HorizontalAlignment"
+		        Value="Right"/>
+		<Setter Property="VerticalAlignment"
+		        Value="Center"/>
+		<Setter Property="TextWrapping"
+		        Value="Wrap"/>
+		<Setter Property="Foreground"
+		        Value="White"/>
+	</Style>
+	
+	
+	
+	<Style
+		Selector="TextBox.DefaultTextBox">
+		<Setter Property="FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="TextWrapping"
+		        Value="Wrap"/>
+		<Setter Property="Background"
+				Value="White"/>
+	</Style>
+
+	<Style
+		Selector="TextBox.DefaultTextBox:pointerover">
+		<Setter Property="Background"
+				Value="White"/>
+		<Setter Property="FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="Opacity"
+				Value="5"/>
+	</Style>
+
+	<Style
+		Selector="TextBox.inGrid">
+		<Setter Property="Background"
+		        Value="White"/>
+		<Setter Property="FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="Margin"
+		        Value="10"/>
+		<Setter Property="HorizontalAlignment"
+		        Value="Stretch"/>
+		<Setter Property="VerticalAlignment"
+		        Value="Stretch"/>
+		<Setter Property="TextWrapping"
+		        Value="Wrap"/>
+		<Setter Property="VerticalContentAlignment"
+		        Value="Center"/>
+	</Style>
+	
+	<Style
+		Selector="TextBox.inGrid:pointerover">
+		<Setter Property="Background"
+		        Value="White"/>
+		<Setter Property="Opacity"
+		        Value="5"/>
+		<Setter Property="FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="Margin"
+		        Value="10"/>
+		<Setter Property="HorizontalAlignment"
+		        Value="Stretch"/>
+		<Setter Property="VerticalAlignment"
+		        Value="Stretch"/>
+		<Setter Property="TextWrapping"
+		        Value="Wrap"/>
+		<Setter Property="VerticalContentAlignment"
+		        Value="Center"/>
+	</Style>
+	
+	
+	
+	<!-- comboBox  -->
+	<Style
+		Selector="ComboBox.DefaultComboBox">
+		<Setter Property="Background"
+		        Value="White"/>
+		<Setter Property="FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="Margin"
+		        Value="10"/>
+		<Setter Property="HorizontalAlignment"
+		        Value="Stretch"/>
+		<Setter Property="VerticalAlignment"
+		        Value="Stretch"/>
+		<Setter Property="VerticalContentAlignment"
+		        Value="Center"/>
+	</Style>
+	
+	
+	<!-- Кнопка при бездействии -->
+	<Style
+		Selector="Button.DefaultButton">
+		<Setter Property="FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="Background"
+		        Value="#0d6efd"/>
+		<Setter Property="Foreground"
+		        Value="White"/>
+		<Setter Property="BorderThickness"
+		        Value="1"/>
+		<Setter Property="BorderBrush"
+		        Value="#0d6efd"/>
+	</Style>
+
+
+	<!-- Кнопка при наведении -->
+	<Style
+		Selector="Button.DefaultButton:pointerover /template/ ContentPresenter">
+		<Setter Property="TextBlock.FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="Background"
+		        Value="#4169e1"/>
+		<Setter Property="TextBlock.Foreground"
+		        Value="White"/>
+		<Setter Property="BorderThickness"
+		        Value="1"/>
+		<Setter Property="BorderBrush"
+		        Value="#0d6efd"/>
+	</Style>
+
+	<!-- Кнопка при нажатии -->
+	<Style
+		Selector="Button.DefaultButton:pressed /template/ ContentPresenter">
+		<Setter Property="TextBlock.FontFamily"
+		        Value="Roboto"/>
+		<Setter Property="BorderThickness"
+		        Value="1"/>
+		<Setter Property="BorderBrush"
+		        Value="#0d6efd"/>
+		<Setter Property="Background"
+		        Value="#4169e1"/>
+		<Setter Property="TextBlock.Foreground"
+		        Value="White"/>
+	</Style>
+	
+	
+	<!-- Кнопка меню -->
+	<Style
+		Selector="MenuItem.DefaultMenuItem">
+		<Setter Property="Background"
+		        Value="Transparent"/>
+		<Setter Property="Foreground"
+		        Value="White"/>
+	</Style>
+	
+	<!-- Кнопка меню при наведении -->
+	<Style
+		Selector="MenuItem.DefaultMenuItem:pointerover /template/ ContentPresenter">
+		<Setter Property="Background"
+		        Value="Transparent"/>
+		<Setter Property="TextBlock.Foreground"
+		        Value="White"/>
+	</Style>
+	
+	<!-- Кнопка меню при нажатии -->
+	<Style
+		Selector="MenuItem.DefaultMenuItem:pressed /template/ ContentPresenter">
+		<Setter Property="Background"
+		        Value="Transparent"/>
+		<Setter Property="TextBlock.Foreground"
+		        Value="White"/>
+	</Style>
+	
+	
+	
+	<Style
+		Selector="DatePicker">
+		<Setter Property="Background"
+		        Value="White"/>
 	</Style>
 </Styles>

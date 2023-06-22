@@ -328,6 +328,22 @@
           }
         }
       },
+      "DocumentFormat.OpenXml/2.20.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Packaging": "4.7.0"
+        },
+        "compile": {
+          "lib/net6.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "HarfBuzzSharp/2.8.2.1-preview.108": {
         "type": "package",
         "dependencies": {
@@ -802,6 +818,15 @@
           }
         }
       },
+      "NameCaseLib/0.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NameCaseLib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NameCaseLib.dll": {}
+        }
+      },
       "SkiaSharp/2.88.1-preview.108": {
         "type": "package",
         "dependencies": {
@@ -1071,6 +1096,19 @@
         },
         "compile": {
           "ref/netstandard1.5/System.IO.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.IO.Packaging/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Packaging.dll": {
             "related": ".xml"
           }
         }
@@ -1842,6 +1880,30 @@
         "lib/netstandard2.0/Avalonia.X11.xml"
       ]
     },
+    "DocumentFormat.OpenXml/2.20.0": {
+      "sha512": "+oFMsEppo/W6KpGTRXaJl2jTFYn9zeon4FaZuDoCijQ1/0JaPENaCef7d4Y3f8v116eKhVBwd4Ya+/NDglxkjw==",
+      "type": "package",
+      "path": "documentformat.openxml/2.20.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "documentformat.openxml.2.20.0.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.dll",
+        "lib/net35/DocumentFormat.OpenXml.xml",
+        "lib/net40/DocumentFormat.OpenXml.dll",
+        "lib/net40/DocumentFormat.OpenXml.xml",
+        "lib/net46/DocumentFormat.OpenXml.dll",
+        "lib/net46/DocumentFormat.OpenXml.xml",
+        "lib/net6.0/DocumentFormat.OpenXml.dll",
+        "lib/net6.0/DocumentFormat.OpenXml.xml",
+        "lib/netstandard1.3/DocumentFormat.OpenXml.dll",
+        "lib/netstandard1.3/DocumentFormat.OpenXml.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
+      ]
+    },
     "HarfBuzzSharp/2.8.2.1-preview.108": {
       "sha512": "vo2eE1jLvYWrfeghYAzkfHr7GNtWsay2ODfufavz8xReOZ648a2sBggSjTU02DQU5EPBSOhKxDnkqnUVWA8xkg==",
       "type": "package",
@@ -2412,6 +2474,18 @@
         "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
         "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "NameCaseLib/0.4.2": {
+      "sha512": "DeDPFxEp5pbTSo94mrbO44MZCd2y67/hrAVaGPjRmA+rvm1fbhRguX/3lktysrkhlgXYSVNnG9WR3LWbG8uVMw==",
+      "type": "package",
+      "path": "namecaselib/0.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NameCaseLib.dll",
+        "namecaselib.0.4.2.nupkg.sha512",
+        "namecaselib.nuspec"
       ]
     },
     "SkiaSharp/2.88.1-preview.108": {
@@ -3150,6 +3224,33 @@
         "ref/xamarinwatchos10/_._",
         "system.io.4.3.0.nupkg.sha512",
         "system.io.nuspec"
+      ]
+    },
+    "System.IO.Packaging/4.7.0": {
+      "sha512": "9VV4KAbgRQZ79iEoG40KIeZy38O30oWwewScAST879+oki8g/Wa2HXZQgrhDDxQM4GkP1PnRJll05NMiVPbYAw==",
+      "type": "package",
+      "path": "system.io.packaging/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.IO.Packaging.dll",
+        "lib/net46/System.IO.Packaging.xml",
+        "lib/netstandard1.3/System.IO.Packaging.dll",
+        "lib/netstandard1.3/System.IO.Packaging.xml",
+        "lib/netstandard2.0/System.IO.Packaging.dll",
+        "lib/netstandard2.0/System.IO.Packaging.xml",
+        "ref/net46/System.IO.Packaging.dll",
+        "ref/net46/System.IO.Packaging.xml",
+        "ref/netstandard1.3/System.IO.Packaging.dll",
+        "ref/netstandard1.3/System.IO.Packaging.xml",
+        "ref/netstandard2.0/System.IO.Packaging.dll",
+        "ref/netstandard2.0/System.IO.Packaging.xml",
+        "system.io.packaging.4.7.0.nupkg.sha512",
+        "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Linq/4.3.0": {
@@ -4770,29 +4871,31 @@
       "Avalonia >= 0.10.18",
       "Avalonia.Desktop >= 0.10.18",
       "Avalonia.Diagnostics >= 0.10.18",
+      "DocumentFormat.OpenXml >= 2.20.0",
       "MessageBox.Avalonia >= 2.1.0",
+      "NameCaseLib >= 0.4.2",
       "System.Configuration.ConfigurationManager >= 7.0.0",
       "XamlNameReferenceGenerator >= 1.5.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Class_User\\.nuget\\packages\\": {},
+    "C:\\Users\\flyma\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
+      "projectUniqueName": "C:\\Users\\flyma\\Desktop\\diplom\\project\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
       "projectName": "ArchivistsDesktop",
-      "projectPath": "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
-      "packagesPath": "C:\\Users\\Class_User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Class_User\\Desktop\\repos\\desctop\\ArchivistDesktop\\ArchivistsDesktop\\obj\\",
+      "projectPath": "C:\\Users\\flyma\\Desktop\\diplom\\project\\ArchivistDesktop\\ArchivistsDesktop\\ArchivistsDesktop.csproj",
+      "packagesPath": "C:\\Users\\flyma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\flyma\\Desktop\\diplom\\project\\ArchivistDesktop\\ArchivistsDesktop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Class_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\flyma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4832,9 +4935,17 @@
             "target": "Package",
             "version": "[0.10.18, )"
           },
+          "DocumentFormat.OpenXml": {
+            "target": "Package",
+            "version": "[2.20.0, )"
+          },
           "MessageBox.Avalonia": {
             "target": "Package",
             "version": "[2.1.0, )"
+          },
+          "NameCaseLib": {
+            "target": "Package",
+            "version": "[0.4.2, )"
           },
           "System.Configuration.ConfigurationManager": {
             "target": "Package",
@@ -4861,7 +4972,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

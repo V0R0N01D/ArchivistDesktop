@@ -7,18 +7,20 @@
 		MinHeight="450"
 		MinWidth="800"
 		Icon="/Source/Image/ava.png"
-		FontFamily="Verdana"
         Title="Архив">
 	<Window.Styles>
 		<StyleInclude Source="/Styles/StylesWhite.axaml" />
 	</Window.Styles>
 	<Grid
+		Classes="DefaultWindow"
 		RowDefinitions="50, *">
 		<Menu>
 			<MenuItem
+				Classes="DefaultMenuItem"
 				Name="ExitItem"
 				Header="Выход"/>
 			<MenuItem
+				Classes="DefaultMenuItem"
 				Name="SettingsItem"
 				Header="Настройки"/>
 		</Menu>

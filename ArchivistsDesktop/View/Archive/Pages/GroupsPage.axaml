@@ -1,0 +1,128 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArchivistsDesktop.View.Archive.Pages.GroupsPage">
+    <UserControl.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </UserControl.Styles>
+    <Grid
+        Classes="DefaultWindow"
+        RowDefinitions="*,4*,70"
+        ColumnDefinitions="*,*,*,*">
+        <ListBox
+            Name="Groups"
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="3"
+            Grid.Column="0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid
+                        Classes="DefaultDataList"
+                        ColumnDefinitions="*,*">
+                        <StackPanel
+                            Grid.Column="0">
+                            <TextBlock
+                                Text="{Binding StringFormat=Группа: {0}, Path=GroupNumber}"/>
+                            <TextBlock
+                                Text="{Binding StringFormat=Курс: {0}, Path=Year}"/>
+                        </StackPanel>
+
+                        <StackPanel
+                            Grid.Column="1">
+                            <TextBlock
+                                Text="{Binding StringFormat=Тип обучения: {0}, Path=TypeEducation.Title}" />
+                            <TextBlock
+                                TextWrapping="Wrap">
+                                <TextBlock.Text>
+                                    <MultiBinding
+                                        StringFormat="Специальность {0} {1}">
+                                        <Binding
+                                            Path="Speciality.Fgos" />
+                                        <Binding
+                                            Path="Speciality.Title" />
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            IsVisible="False"
+            Name="NoResult"
+            HorizontalAlignment="Center"
+            Margin="10"
+            Text="Нет результата, который соответствует запросу" />
+
+        <TextBox
+            Classes="DefaultTextBox"
+            Name="SearchInput"
+            Watermark="Поиск"
+            Margin="10"
+            Grid.Row="0"
+            Grid.Column="3"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch" />
+
+        <StackPanel
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="10"
+            Spacing="10"
+            Grid.Row="1"
+            Grid.Column="3">
+            <ComboBox
+                Classes="DefaultComboBox"
+                Margin="0"
+                Name="FilterYear"
+                SelectedIndex="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch">
+                <ComboBoxItem
+                    Content="Все курсы" />
+                <ComboBoxItem
+                    Content="1 курс" />
+                <ComboBoxItem
+                    Content="2 курс" />
+                <ComboBoxItem
+                    Content="3 курс" />
+                <ComboBoxItem
+                    Content="4 курс" />
+            </ComboBox>
+
+            <Button
+                Classes="DefaultButton"
+                Content="Найти"
+                Name="Search"
+                HorizontalContentAlignment="Center"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" />
+        </StackPanel>
+
+
+        <Button
+            Classes="DefaultButton"
+            Name="BackPage"
+            Content="Назад"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0" />
+
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="1"
+            Name="AddGroup"
+            IsVisible="False"
+            Content="Добавить группу" />
+    </Grid>
+</UserControl>

@@ -2,39 +2,58 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="350"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="250"
         x:Class="ArchivistsDesktop.MainWindow"
 		Icon="/Source/Image/ava.png"
-		FontFamily="Verdana"
-		CanResize="False"
+        CanResize="False"
 		Width="400"
-		Height="350"
+		Height="250"
         Title="Авторизация">
+	<Window.Styles>
+		<StyleInclude Source="/Styles/StylesWhite.axaml" />
+	</Window.Styles>
+	
 	<Grid
+		Classes="DefaultWindow"
 		RowDefinitions="2*,*,*,2*"
 		ColumnDefinitions="*,*,*,*,*,*">
+		<Button
+			Classes="DefaultButton"
+			Grid.Column="0"
+			Margin="10"
+			Name="Settings"
+			FontSize="20"
+			Grid.Row="0"
+			Background="Transparent"
+			Content="⚙"/>
 		<TextBlock
+			Classes="DefaultBigText"
+			Grid.Row="0"
+			Grid.Column="0"
 			Grid.ColumnSpan="6"
 			HorizontalAlignment="Center"
 			VerticalAlignment="Center"
 			Text="Авторизация"/>
 		<TextBlock
+			Classes="DefaultText"
 			Text="Логин:"
 			Grid.Column="1"
 			Grid.Row="1"
 			VerticalAlignment="Center"
 			HorizontalAlignment="Center"/>
 		<TextBlock
+			Classes="DefaultText"
 			Text="Пароль:"
 			Grid.Column="1"
 			Grid.Row="2"
 			VerticalAlignment="Center"
 			HorizontalAlignment="Center"/>
 		<TextBox
+			Classes="DefaultTextBox"
+			Text="admin"
 			Name="LoginInput"
 			Watermark="Логин"
 			Grid.Row="1"
-			Text="admin"
 			Grid.Column="2"
 			Grid.ColumnSpan="3"
 			Margin="5,10"
@@ -42,11 +61,12 @@
 			VerticalAlignment="Stretch"
 			HorizontalAlignment="Stretch"/>
 		<TextBox
+			Classes="DefaultTextBox"
+			Text="admin"
 			Name="PasswordInput"
 			Watermark="Пароль"
 			PasswordChar="*"
 			Grid.Row="2"
-			Text="admin"
 			Grid.Column="2"
 			Grid.ColumnSpan="3"
 			Margin="5,10"
@@ -54,11 +74,13 @@
 			VerticalAlignment="Stretch"
 			HorizontalAlignment="Stretch"/>
 		<Button
+			Classes="DefaultButton"
 			Grid.Row="3"
 			Grid.Column="4"
 			Grid.ColumnSpan="2"
 			Margin="10"
 			Name="Login"
+			Background="#1e5dd1"
 			VerticalAlignment="Bottom"
 			HorizontalAlignment="Right"
 			Content="Войти"/>

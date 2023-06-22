@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 
-namespace ArchivistAPI.Contracts.ResponseClass
+namespace ArchivistsDesktop.Contracts.ResponseClass
 {
     public class StudentsResponse
     {
@@ -15,8 +15,6 @@ namespace ArchivistAPI.Contracts.ResponseClass
         public string? Patronymic { get; set; }
         [JsonPropertyName("date_birthday")]
         public DateOnly DateBirthday { get; set; }
-        [JsonPropertyName("date_start_education")]
-        public DateOnly? DateStartEducation { get; set; }
         [JsonPropertyName("is_studing")]
         public bool? IsStuding { get; set; }
         [JsonPropertyName("averange_grade")]
@@ -26,9 +24,6 @@ namespace ArchivistAPI.Contracts.ResponseClass
         [JsonPropertyName("speciality")]
         public string? SpecialityTitle { get; set; }
 
-        public string IsStudingTitle
-        {
-            get => IsStuding is true ? "Да" : "Нет";
-        }
+        public string IsStudingTitle => IsStuding is true ? "Да" : "Нет";
     }
 }

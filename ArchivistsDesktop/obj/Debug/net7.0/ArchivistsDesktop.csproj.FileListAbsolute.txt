@@ -282,3 +282,1434 @@ C:\Users\Class_User\Desktop\repos\desctop\ArchivistDesktop\ArchivistsDesktop\obj
 C:\Users\Class_User\Desktop\repos\desctop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
 C:\Users\Class_User\Desktop\repos\desctop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
 C:\Users\Class_User\Desktop\repos\desctop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+C:\Users\flyma\RiderProjects\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+C:\Users\Class_User\Desktop\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+D:\updatae\no git\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+D:\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+C:\Users\PC\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+D:\data\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+C:\Users\flyma\Desktop\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+C:\Users\prdb\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\prdb\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+C:\Users\prdb\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+C:\Users\Class_User\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.IO.Packaging.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.IO.Packaging.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\NameCaseLib.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.exe
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.deps.json
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.runtimeconfig.json
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Animation.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Base.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.DesktopRuntime.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Dialogs.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Input.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Interactivity.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Layout.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Markup.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.MicroCom.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.OpenGL.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Styling.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Default.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Visuals.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\AvaloniaEdit.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Desktop.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Native.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Skia.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.Win32.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Avalonia.X11.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\HarfBuzzSharp.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.SyntaxHigh.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Markdown.Avalonia.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\MessageBox.Avalonia.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\NameCaseLib.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.IO.Packaging.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\Tmds.DBus.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x64\native\av_libglesv2.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win7-x86\native\av_libglesv2.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.AssemblyReference.cache
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfoInputs.cache
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.AssemblyInfo.cs
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CoreCompileInputs.cache
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.csproj.CopyComplete
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\refint\ArchivistsDesktop.dll
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.pdb
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ArchivistsDesktop.genruntimeconfig.cache
+C:\Users\flyma\Desktop\diplom\project\ArchivistDesktop\ArchivistsDesktop\obj\Debug\net7.0\ref\ArchivistsDesktop.dll
