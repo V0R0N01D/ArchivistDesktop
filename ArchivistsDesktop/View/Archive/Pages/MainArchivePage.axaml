@@ -26,6 +26,8 @@
 			HorizontalAlignment="Stretch"
 			VerticalAlignment="Stretch">
 			<Button
+				Width="250"
+				HorizontalContentAlignment="Center"
 				Classes="DefaultButton"
 				Name="Students"
 				HorizontalAlignment="Stretch"
@@ -40,11 +42,13 @@
 			HorizontalAlignment="Stretch"
 			VerticalAlignment="Stretch">
 			<Button
+				Width="250"
+				HorizontalContentAlignment="Center"
 				Classes="DefaultButton"
 				Name="Groups"
 				HorizontalAlignment="Stretch"
 				VerticalAlignment="Stretch"
-				Content="Просмотр списка групп        "/>
+				Content="Просмотр списка групп"/>
 		</Viewbox>
 		
 		<Viewbox
@@ -54,6 +58,8 @@
 			HorizontalAlignment="Stretch"
 			VerticalAlignment="Stretch">
 			<Button
+				Width="250"
+				HorizontalContentAlignment="Center"
 				Classes="DefaultButton"
 				Name="Orders"
 				HorizontalAlignment="Stretch"
@@ -68,11 +74,13 @@
 			HorizontalAlignment="Stretch"
 			VerticalAlignment="Stretch">
 			<Button
+				Width="250"
+				HorizontalContentAlignment="Center"
 				Classes="DefaultButton"
-				Name="Applicants"
+				Name="Specialities"
 				HorizontalAlignment="Stretch"
 				VerticalAlignment="Stretch"
-				Content="Добавление абитуриентов   "/>
+				Content="Просмотр списка специальностей"/>
 		</Viewbox>
 	</Grid>
 </UserControl>

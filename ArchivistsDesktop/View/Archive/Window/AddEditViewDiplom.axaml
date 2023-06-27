@@ -1,0 +1,110 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="750" d:DesignHeight="270"
+        x:Class="ArchivistsDesktop.View.Archive.Window.AddEditViewDiplom"
+        Icon="/Source/Image/ava.png"
+        Height="270"
+        Width="750"
+        MinHeight="270"
+        MinWidth="750"
+        Title="Добавление диплома">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+    <Grid
+        Classes="DefaultWindow"
+        RowDefinitions="70,*,70"
+        ColumnDefinitions="*,*,*">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Name="MainText"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Добавление диплома" />
+
+        <Grid
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="10"
+            RowDefinitions="*,*"
+            ColumnDefinitions="*,2*,*,2*">
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="0"
+                Text="ID:" />
+            <TextBox
+                Name="Identify"
+                IsReadOnly="True"
+                Classes="inGrid"
+                Text="{Binding Id}"
+                Watermark="Устанавливается автоматически при добавлении"
+                Grid.Row="0"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="Серия диплома:" />
+            <TextBox
+                Name="DiplomSerial"
+                Classes="inGrid"
+                Text="{Binding Serial}"
+                Watermark="Серия диплома"
+                Grid.Row="1"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="2"
+                Text="Номер диплома*:" />
+
+            <TextBox
+                Name="DiplomNumber"
+                Classes="inGrid"
+                Text="{Binding Number}"
+                Watermark="Номер диплома"
+                Grid.Row="0"
+                Grid.Column="3" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="2"
+                Text="Дата:" />
+            <Viewbox
+                Margin="10"
+                Grid.Row="1"
+                Grid.Column="3">
+                <DatePicker
+                    Name="DateDiplom"
+                    Classes="DefaultDate" />
+            </Viewbox>
+        </Grid>
+
+        <Button
+            Classes="DefaultButton"
+            Name="BackPage"
+            Content="Назад"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0" />
+
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="2"
+            Name="SaveDiplom"
+            Content="Добавить"
+            Margin="10"
+            HorizontalAlignment="Right" />
+    </Grid>
+</Window>

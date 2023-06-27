@@ -44,22 +44,30 @@ namespace ArchivistsDesktop.View.Archive.Pages
         /// <param name="e"></param>
         private async void StudentListOnDoubleTapped(object? sender, RoutedEventArgs e)
         {
+            if (StudentList.SelectedItem is not StudentsResponse selectStudent)
+            {
+                return;
+            }
+            
             StudentList.IsEnabled = false;
             // Строка авторизации в api
             var authString = Auth.GetAuth(ConnectData.Login, ConnectData.Password);
 
             try
             {
-                var selectStudent = StudentList.SelectedItem as StudentsResponse;
-
                 using var request = new HttpRequestMessage(HttpMethod.Get, $"Students/{selectStudent!.Id}");
                 request.Headers.Add("AUTH", authString);
                 var response = await ConnectData.Client.SendAsync(request);
                 if (!response.IsSuccessStatusCode)
                 {
-                    await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка",
-                            $"Ошибка. Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}")
-                        .ShowDialog(UserData.currentWindow);
+                    await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                    {
+                        WindowIcon = UserData.currentWindow!.Icon,
+                        ContentTitle = "Ошибка",
+                        CanResize = true,
+                        ContentMessage = $"Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}",
+                        ButtonDefinitions = ButtonEnum.Ok
+                    }).ShowDialog(UserData.currentWindow!);
                     StudentList.IsEnabled = true;
                     return;
                 }
@@ -73,8 +81,14 @@ namespace ArchivistsDesktop.View.Archive.Pages
             }
             catch (Exception ex)
             {
-                await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", $"Ошибка соединения: {ex.Message}")
-                    .ShowDialog(UserData.currentWindow);
+                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                {
+                    WindowIcon = UserData.currentWindow!.Icon,
+                    ContentTitle = "Ошибка",
+                    CanResize = true,
+                    ContentMessage = $"Ошибка соединения: {ex.Message}",
+                    ButtonDefinitions = ButtonEnum.Ok
+                }).ShowDialog(UserData.currentWindow!);
             }
             StudentList.IsEnabled = true;
         }
@@ -144,6 +158,7 @@ namespace ArchivistsDesktop.View.Archive.Pages
             {
                 WindowIcon = UserData.currentWindow!.Icon,
                 ContentTitle = "Уведомление",
+                CanResize = true,
                 ContentMessage = "Вы уверены, что хотите удалить выбранного студента?",
                 ButtonDefinitions = ButtonEnum.YesNo
             }).ShowDialog(UserData.currentWindow!);
@@ -167,6 +182,7 @@ namespace ArchivistsDesktop.View.Archive.Pages
                     {
                         WindowIcon = UserData.currentWindow!.Icon,
                         ContentTitle = "Ошибка",
+                        CanResize = true,
                         ContentMessage = $"Удаление не выполнено. Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}",
                         ButtonDefinitions = ButtonEnum.Ok
                     }).ShowDialog(UserData.currentWindow!);
@@ -180,6 +196,7 @@ namespace ArchivistsDesktop.View.Archive.Pages
                 {
                     WindowIcon = UserData.currentWindow!.Icon,
                     ContentTitle = "Ошибка",
+                    CanResize = true,
                     ContentMessage = $"Ошибка соединения: {ex.Message}",
                     ButtonDefinitions = ButtonEnum.Ok
                 }).ShowDialog(UserData.currentWindow!);
@@ -205,9 +222,14 @@ namespace ArchivistsDesktop.View.Archive.Pages
                 var response = await ConnectData.Client.SendAsync(request);
                 if (!response.IsSuccessStatusCode)
                 {
-                    await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка",
-                            $"Ошибка. Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}")
-                        .ShowDialog(UserData.currentWindow);
+                    await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                    {
+                        WindowIcon = UserData.currentWindow!.Icon,
+                        ContentTitle = "Ошибка",
+                        CanResize = true,
+                        ContentMessage = $"Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}",
+                        ButtonDefinitions = ButtonEnum.Ok
+                    }).ShowDialog(UserData.currentWindow!);
                     return;
                 }
                 
@@ -222,8 +244,14 @@ namespace ArchivistsDesktop.View.Archive.Pages
             }
             catch (Exception ex)
             {
-                await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", $"Ошибка соединения: {ex.Message}")
-                    .ShowDialog(UserData.currentWindow);
+                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                {
+                    WindowIcon = UserData.currentWindow!.Icon,
+                    ContentTitle = "Ошибка",
+                    CanResize = true,
+                    ContentMessage = $"Ошибка соединения: {ex.Message}",
+                    ButtonDefinitions = ButtonEnum.Ok
+                }).ShowDialog(UserData.currentWindow!);
             }
         }
 
@@ -282,9 +310,14 @@ namespace ArchivistsDesktop.View.Archive.Pages
                 var response = await ConnectData.Client.SendAsync(request);
                 if (!response.IsSuccessStatusCode)
                 {
-                    await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка",
-                            $"Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}")
-                        .ShowDialog(UserData.currentWindow);
+                    await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                    {
+                        WindowIcon = UserData.currentWindow!.Icon,
+                        ContentTitle = "Ошибка",
+                        CanResize = true,
+                        ContentMessage = $"Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}",
+                        ButtonDefinitions = ButtonEnum.Ok
+                    }).ShowDialog(UserData.currentWindow!);
                     Search.IsEnabled = true;
                     return;
                 }
@@ -298,8 +331,14 @@ namespace ArchivistsDesktop.View.Archive.Pages
             // Перехват ошибок связи с api
             catch (Exception ex)
             {
-                await MessageBoxManager.GetMessageBoxStandardWindow("Ошибка", $"Ошибка соединения: {ex.Message}")
-                    .ShowDialog(UserData.currentWindow);
+                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                {
+                    WindowIcon = UserData.currentWindow!.Icon,
+                    ContentTitle = "Ошибка",
+                    CanResize = true,
+                    ContentMessage = $"Ошибка соединения: {ex.Message}",
+                    ButtonDefinitions = ButtonEnum.Ok
+                }).ShowDialog(UserData.currentWindow!);
             }
 
             // Включение возможности нажатия на кнопку поиска

@@ -1,0 +1,90 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArchivistsDesktop.View.Admin.Pages.UsersPage">
+        <UserControl.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </UserControl.Styles>
+    <Grid
+        Classes="DefaultWindow"
+        RowDefinitions="*,4*,70"
+        ColumnDefinitions="*,*,*,*">
+        <ListBox
+            Name="Users"
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="3"
+            Grid.Column="0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid
+                        Classes="DefaultDataList"
+                        ColumnDefinitions="*,*">
+                        <StackPanel
+                            Grid.Column="0">
+                            <TextBlock
+                                Text="{Binding StringFormat=Логин: {0}, Path=Login}"/>
+                            <TextBlock
+                                Text="{Binding StringFormat=Дата регистрации: {0}, Path=DateReg}"/>
+                        </StackPanel>
+
+                        <StackPanel
+                            Grid.Column="1">
+                            <TextBlock
+                                Text="{Binding StringFormat=Имя: {0}, Path=FirstName}" />
+                            <TextBlock
+                                Text="{Binding StringFormat=Фамилия: {0}, Path=LastName}" />
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            IsVisible="False"
+            Name="NoResult"
+            HorizontalAlignment="Center"
+            Margin="10"
+            Text="Нет результата, который соответствует запросу" />
+
+        <TextBox
+            Classes="DefaultTextBox"
+            Name="SearchInput"
+            Watermark="Поиск"
+            Margin="10"
+            Grid.Row="0"
+            Grid.Column="3"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch" />
+
+        <StackPanel
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="10"
+            Spacing="10"
+            Grid.Row="1"
+            Grid.Column="3">
+            <Button
+                Classes="DefaultButton"
+                Content="Найти"
+                Name="Search"
+                HorizontalContentAlignment="Center"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" />
+        </StackPanel>
+
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="1"
+            Name="AddUser"
+            IsVisible="False"
+            Content="Добавить пользователя" />
+    </Grid>
+</UserControl>

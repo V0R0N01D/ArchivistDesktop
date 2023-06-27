@@ -68,6 +68,7 @@ public partial class SettingsWindow : Window
         var res = await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
         {
             WindowIcon = this.Icon,
+            CanResize = true,
             ContentTitle = "Уведомление",
             ContentMessage = "Вы уверены, что хотите сохранить настройки?",
             ButtonDefinitions = ButtonEnum.YesNo
@@ -85,6 +86,7 @@ public partial class SettingsWindow : Window
             await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
             {
                 WindowIcon = this.Icon,
+                CanResize = true,
                 ContentTitle = "Уведомление",
                 ContentMessage = "Строка адреса пустая",
                 ButtonDefinitions = ButtonEnum.Ok
@@ -97,6 +99,7 @@ public partial class SettingsWindow : Window
             await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
             {
                 WindowIcon = this.Icon,
+                CanResize = true,
                 ContentTitle = "Уведомление",
                 ContentMessage = "Адрес заполнен неверно",
                 ButtonDefinitions = ButtonEnum.Ok
@@ -119,6 +122,7 @@ public partial class SettingsWindow : Window
         await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
         {
             WindowIcon = this.Icon,
+            CanResize = true,
             ContentTitle = "Уведомление",
             ContentMessage = "Настройки успешно сохранены",
             ButtonDefinitions = ButtonEnum.Ok

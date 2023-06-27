@@ -1,0 +1,92 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="520" d:DesignHeight="350"
+        x:Class="ArchivistsDesktop.View.Archive.Window.AddEditViewSpeciality"
+        Icon="/Source/Image/ava.png"
+        Height="350"
+        Width="520"
+        MinHeight="350"
+        MinWidth="500"
+        Title="Добавление специальности">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+    <Grid
+        Classes="DefaultWindow"
+        RowDefinitions="70,*,70">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Name="MainText"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Добавление специальности" />
+
+        <Grid
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="10"
+            RowDefinitions="*,*,*"
+            ColumnDefinitions="*,2*">
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="0"
+                Text="ID:" />
+            <TextBox
+                Name="Identify"
+                IsReadOnly="True"
+                Classes="inGrid"
+                Text="{Binding Id}"
+                Watermark="Устанавливается автоматически при добавлении"
+                Grid.Row="0"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="ФГОС:" />
+            <TextBox
+                Name="FGOS"
+                Classes="inGrid"
+                Text="{Binding Fgos}"
+                Watermark="ФГОС"
+                Grid.Row="1"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="0"
+                Text="Название:" />
+            
+            <TextBox
+                Name="SpecialityTitle"
+                Classes="inGrid"
+                Text="{Binding Title}"
+                Watermark="Название"
+                Grid.Row="2"
+                Grid.Column="1" />
+            
+        </Grid>
+        
+        <Button
+            Classes="DefaultButton"
+            Name="BackPage"
+            Content="Назад"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0"/>
+        
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Name="SaveSpeciality"
+            Content="Добавить"
+            Margin="10"
+            HorizontalAlignment="Right" />
+    </Grid>
+</Window>

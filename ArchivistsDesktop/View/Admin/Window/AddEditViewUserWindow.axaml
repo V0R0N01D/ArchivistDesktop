@@ -1,0 +1,181 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ArchivistsDesktop.View.Admin.Window.AddEditViewUserWindow"
+        Icon="/Source/Image/ava.png"
+        Height="450"
+        Width="800"
+        MinHeight="450"
+        MinWidth="800"
+        Title="Добавление пользователя">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+    <Grid
+        Classes="DefaultWindow"
+        RowDefinitions="70,*,70"
+        ColumnDefinitions="*,*,*">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Name="MainText"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Добавление пользователя" />
+
+        <Grid
+            Margin="10"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Grid.Row="1"
+            RowDefinitions="*,*,2*"
+            ColumnDefinitions="*,2*,*,2*,3*">
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="0"
+                Text="ID:" />
+            <TextBox
+                Name="Identify"
+                IsReadOnly="True"
+                Classes="inGrid"
+                Text="{Binding Id}"
+                Watermark="Устанавливается автоматически при добавлении"
+                Grid.Row="0"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="Логин*:" />
+            <TextBox
+                Name="Login"
+                Classes="inGrid"
+                Text="{Binding Login}"
+                Watermark="Логин"
+                Grid.Row="1"
+                Grid.Column="1" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="0"
+                Text="Пароль*:" />
+            <Button
+                Margin="10"
+                Grid.Row="2"
+                Grid.Column="1"
+                Name="ChangePassword"
+                Classes="DefaultButton"
+                Content="Изменить пароль"/>
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="0"
+                Grid.Column="2"
+                Text="Имя:" />
+            <TextBox
+                Name="FirstName"
+                Classes="inGrid"
+                Text="{Binding FirstName}"
+                Watermark="Имя"
+                Grid.Row="0"
+                Grid.Column="3" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="1"
+                Grid.Column="2"
+                Text="Фамилия:" />
+            <TextBox
+                Name="LastName"
+                Classes="inGrid"
+                Text="{Binding LastName}"
+                Watermark="Фамилия"
+                Grid.Row="1"
+                Grid.Column="3" />
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="2"
+                Grid.Column="2"
+                Text="Дата регистрации:" />
+            <Viewbox
+                Grid.Row="2"
+                Grid.Column="3">
+                <DatePicker
+                    IsHitTestVisible="False"
+                    Classes="DefaultDate"
+                    Name="DateReg"/>
+            </Viewbox>
+            
+            <StackPanel
+                Orientation="Horizontal"
+                Margin="10"
+                Spacing="10"
+                Grid.Row="0"
+                Grid.Column="4">
+                <Button
+                    Classes="DefaultButton"
+                    HorizontalAlignment="Right"
+                    Name="AddRole"
+                    Content="Добавить" />
+                <TextBlock
+                    Classes="inGrid"
+                    Text="Роли:" />
+            </StackPanel>
+
+            <ListBox
+                Name="Roles"
+                Grid.Row="1"
+                Grid.RowSpan="2"
+                Grid.Column="4"
+                Margin="10">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid
+                            Classes="DefaultDataList"
+                            ColumnDefinitions="*,2*">
+                            <TextBlock
+                                Margin="5"
+                                TextWrapping="Wrap"
+                                Grid.Column="0"
+                                Text="{Binding StringFormat=Название: {0}, Path=Role.Title}" />
+                            <TextBlock
+                                Margin="5"
+                                TextWrapping="Wrap"
+                                Grid.Column="1"
+                                Text="{Binding StringFormat=Описание: {0}, Path=Role.Description}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+
+        <StackPanel
+            Margin="10"
+            Orientation="Horizontal"
+            Spacing="10"
+            Grid.Row="2"
+            Grid.Column="0">
+            <Button
+                Classes="DefaultButton"
+                Name="BackPage"
+                Content="Назад" />
+        </StackPanel>
+
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="2"
+            Name="SaveUser"
+            Content="Добавить"
+            Margin="10"
+            HorizontalAlignment="Right" />
+    </Grid>
+</Window>

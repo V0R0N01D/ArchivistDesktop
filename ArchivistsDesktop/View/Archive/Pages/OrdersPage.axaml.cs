@@ -94,6 +94,8 @@ public partial class OrdersPage : UserControl
 
             var types = await response.Content.ReadFromJsonAsync<List<OrderAllDataResponse>>();
 
+            NoResult.IsVisible = types is { Count: 0 };
+            
             Orders.Items = types;
         }
         catch (Exception ex)
@@ -240,6 +242,7 @@ public partial class OrdersPage : UserControl
         {
             WindowIcon = UserData.currentWindow!.Icon,
             ContentTitle = "Уведомление",
+            CanResize = true,
             ContentMessage = "Вы уверены, что хотите удалить выбранный приказ?",
             ButtonDefinitions = ButtonEnum.YesNo
         }).ShowDialog(UserData.currentWindow!);
@@ -263,6 +266,7 @@ public partial class OrdersPage : UserControl
                 {
                     WindowIcon = UserData.currentWindow!.Icon,
                     ContentTitle = "Ошибка",
+                    CanResize = true,
                     ContentMessage =
                         $"Удаление не выполнено. Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}",
                     ButtonDefinitions = ButtonEnum.Ok
@@ -278,6 +282,7 @@ public partial class OrdersPage : UserControl
             {
                 WindowIcon = UserData.currentWindow!.Icon,
                 ContentTitle = "Ошибка",
+                CanResize = true,
                 ContentMessage = $"Ошибка соединения: {ex.Message}",
                 ButtonDefinitions = ButtonEnum.Ok
             }).ShowDialog(UserData.currentWindow!);

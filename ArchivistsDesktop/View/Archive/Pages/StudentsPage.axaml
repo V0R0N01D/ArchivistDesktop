@@ -26,7 +26,8 @@
                         <StackPanel
                             Grid.Column="0"
                             Spacing="10">
-                            <TextBlock>
+                            <TextBlock
+                                TextWrapping="Wrap">
                                 <TextBlock.Text>
                                     <MultiBinding StringFormat="ФИО: {0} {1} {2}">
                                         <Binding Path="LastName" />
@@ -38,18 +39,17 @@
                             <TextBlock
                                 Text="{Binding StringFormat=Дата рождения: {0}, Path=DateBirthday}" />
                             <TextBlock
-                                Text="{Binding StringFormat=Средний балл аттестата: {0}, Path=AverageGrade}" />
+                                Text="{Binding StringFormat=Выпущен: {0}, Path=IsReleasedTitle}" />
                         </StackPanel>
 
                         <StackPanel
                             Grid.Column="1"
                             Spacing="10">
                             <TextBlock
+                                TextWrapping="Wrap"
                                 Text="{Binding StringFormat=Специальность: {0}, Path=SpecialityTitle}" />
                             <TextBlock
                                 Text="{Binding StringFormat=Группа: {0}, Path=GroupTitle}" />
-                            <TextBlock
-                                Text="{Binding StringFormat=Обучается: {0}, Path=IsStudingTitle}" />
                         </StackPanel>
 
                     </Grid>
@@ -59,6 +59,7 @@
 
         <TextBlock
             Classes="DefaultBigText"
+            Foreground="Black"
             Grid.Row="0"
             Grid.Column="0"
             Grid.ColumnSpan="3"
@@ -95,9 +96,9 @@
                 <ComboBoxItem
                     Content="Без фильтрации" />
                 <ComboBoxItem
-                    Content="Только обучающиеся" />
+                    Content="Только выпущенные" />
                 <ComboBoxItem
-                    Content="Только не обучающиеся" />
+                    Content="Только не выпущенные" />
             </ComboBox>
 
             <Button

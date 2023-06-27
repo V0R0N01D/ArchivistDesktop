@@ -33,7 +33,7 @@ namespace ArchivistsDesktop
         /// <summary>
         /// Получить Sha256 хэш.
         /// </summary>
-        private static string GetSha256(this string s)
+        internal static string GetSha256(this string s)
         {
             var sha256 = SHA256.Create();
             var bytes = Encoding.ASCII.GetBytes(s);

@@ -34,7 +34,7 @@ namespace ArchivistsDesktop.DataClass
 
         internal static string Login = "";
         internal static string Password = "";
-        internal static List<UserRoleResponse>? Roles = new ();
+        internal static List<RoleResponse>? Roles = new ();
 
         internal static void ClearUserData()
         {

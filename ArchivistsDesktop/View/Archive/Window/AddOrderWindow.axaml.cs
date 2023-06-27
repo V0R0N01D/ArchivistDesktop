@@ -47,7 +47,14 @@ public partial class AddOrderWindow : Avalonia.Controls.Window
 
         try
         {
-            using var request = new HttpRequestMessage(HttpMethod.Get, "Order");
+            var requestUri = "Order";
+            var search = InputSearch.Text;
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                requestUri = requestUri.AddOptionalParam("search", search);
+            }
+            
+            using var request = new HttpRequestMessage(HttpMethod.Get, requestUri);
             request.Headers.Add("AUTH", authString);
             var response = await ConnectData.Client.SendAsync(request);
             if (!response.IsSuccessStatusCode)
@@ -100,6 +107,17 @@ public partial class AddOrderWindow : Avalonia.Controls.Window
     {
         SaveOrder.Click += SaveOrderOnClick;
         BackPage.Click += BackPageOnClick;
+        Search.Click += SearchOnClick;
+    }
+
+    /// <summary>
+    /// Поиск приказов
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    private void SearchOnClick(object? sender, RoutedEventArgs e)
+    {
+        LoadOrders();
     }
 
     /// <summary>

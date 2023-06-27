@@ -4,19 +4,28 @@
     <option name="projectPerEditor">
       <map>
         <entry key="ArchivistsDesktop/Styles/StylesWhite.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
+        <entry key="ArchivistsDesktop/View/Admin/Pages/UsersPage.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
+        <entry key="ArchivistsDesktop/View/Admin/Window/AddEditViewUserWindow.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
+        <entry key="ArchivistsDesktop/View/Admin/Window/AddRole.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
+        <entry key="ArchivistsDesktop/View/AdminWindow.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/AddEditViewStudentPage.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Pages/AddEditViewStudentPage.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Pages/GroupsPage.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Pages/MainArchivePage.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Pages/OrdersPage.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
+        <entry key="ArchivistsDesktop/View/Archive/Pages/SpecialitiesPag.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
+        <entry key="ArchivistsDesktop/View/Archive/Pages/SpecialitiesPage.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Pages/StudentsPage.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Window/AddEditOrderWindow.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Window/AddEditViewCertificateEducationWindow.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
+        <entry key="ArchivistsDesktop/View/Archive/Window/AddEditViewDiplom.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Window/AddEditViewGroup.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Window/AddEditViewOrder.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
+        <entry key="ArchivistsDesktop/View/Archive/Window/AddEditViewSpeciality.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Window/AddEditViewStudentWindow.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Window/AddGradeWindow.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/Archive/Window/AddOrderWindow.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
+        <entry key="ArchivistsDesktop/View/Archive/Window/SelectSpeciality.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/DefaultWindow.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/MainWindow.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />
         <entry key="ArchivistsDesktop/View/ReceptionCommission/Pages/ApplicantsPage.axaml" value="ArchivistsDesktop/ArchivistsDesktop.csproj" />

@@ -22,7 +22,7 @@ namespace ArchivistsDesktop.View.ArchiveWindow.Pages
         /// </summary>
         private void InitializeEvent()
         {
-            Applicants.Click += ApplicantsOnClick;
+            Specialities.Click += SpecialitiesOnClick;
             Students.Click += ListStudent_Click;
             Groups.Click += ListGroup_Click;
             Orders.Click += OrdersOnClick;
@@ -60,13 +60,13 @@ namespace ArchivistsDesktop.View.ArchiveWindow.Pages
         }
         
         /// <summary>
-        /// Добавление студентов через csv/excel
+        /// Просмотр списка специальностей
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void ApplicantsOnClick(object? sender, RoutedEventArgs e)
+        private void SpecialitiesOnClick(object? sender, RoutedEventArgs e)
         {
-            
+            UserData.currentWindow!.DisplayPage(new SpecialitiesPage());
         }
         #endregion
     }

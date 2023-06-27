@@ -13,8 +13,8 @@
     <Window.Styles>
         <StyleInclude Source="/Styles/StylesWhite.axaml" />
     </Window.Styles>
-	<Grid
-		Classes="DefaultWindow"
+    <Grid
+        Classes="DefaultWindow"
         RowDefinitions="70,*,70"
         ColumnDefinitions="*,*,*">
         <TextBlock
@@ -32,8 +32,8 @@
             Grid.Column="0"
             Grid.ColumnSpan="3"
             Grid.Row="1"
-            RowDefinitions="*,*,*,*,3*"
-            ColumnDefinitions="*,2*,*,2*,2*">
+            RowDefinitions="*,*,*,*,*,*"
+            ColumnDefinitions="*,2*,*,2*,3*">
             <TextBlock
                 Classes="inGrid"
                 Grid.Row="0"
@@ -41,7 +41,7 @@
                 Text="ID:" />
             <TextBox
                 Name="Identify"
-                IsEnabled="False"
+                IsReadOnly="True"
                 Classes="inGrid"
                 Text="{Binding Id}"
                 Watermark="Устанавливается автоматически при добавлении"
@@ -90,26 +90,20 @@
             <TextBlock
                 Classes="inGrid"
                 Grid.Row="4"
+                Grid.RowSpan="2"
                 Grid.Column="0"
-                Text="Аттестат:" />
-            <StackPanel
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
+                Text="Документ об образовании:" />
+            <Button
                 Margin="10"
-                Spacing="10"
                 Grid.Row="4"
-                Grid.Column="1">
-                <TextBlock
-                    Classes="DefaultText"
-                    Text="Аттестат отсутствует "
-                    Name="AverangeGrade" />
-                <Button
-                    Classes="DefaultButton"
-                    Name="CheckCertificateEducation"
-                    Content="Добавить аттестат" />
-            </StackPanel>
+                Grid.RowSpan="2"
+                Grid.Column="1"
+                Classes="DefaultButton"
+                Name="CheckDiplom"
+                Content="Добавить документ об образовании" />
 
 
+            
             <TextBlock
                 Classes="inGrid"
                 Grid.Row="0"
@@ -153,75 +147,102 @@
                 Classes="inGrid"
                 Grid.Row="3"
                 Grid.Column="2"
-                Text="Обучается:" />
+                Text="Выпущен*:" />
             <CheckBox
                 Margin="10"
-                Name="IsStuding"
-                IsChecked="{Binding IsStuding}"
+                Name="IsReleased"
+                IsChecked="{Binding IsReleased}"
                 Grid.Row="3"
                 Grid.Column="3" />
-            
-            <StackPanel
+
+            <TextBlock
+                Classes="inGrid"
                 Grid.Row="4"
-                Grid.Column="2">
-                <TextBlock
-                    Classes="inGrid"
-                    Text="Приказы:" />
+                HorizontalAlignment="Center"
+                Grid.Column="2"
+                Text="Дата рождения*:" />
+
+            <Viewbox
+                Margin="10"
+                Grid.Row="4"
+                Grid.Column="3">
+                <DatePicker
+                    Classes="DefaultDate"
+                    Name="DateBirthday" />
+            </Viewbox>
+
+            <TextBlock
+                Classes="inGrid"
+                Grid.Row="5"
+                HorizontalAlignment="Center"
+                Grid.Column="2"
+                Text="Тип аттестата:" />
+
+            <ComboBox
+                Classes="DefaultComboBox"
+                Name="TypeCertificateEducation"
+                Grid.Row="5"
+                Grid.Column="3">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock
+                            Text="{Binding Title}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <StackPanel
+                Orientation="Horizontal"
+                Margin="10"
+                Spacing="10"
+                Grid.Row="0"
+                Grid.Column="4">
                 <Button
                     Classes="DefaultButton"
                     HorizontalAlignment="Right"
                     Name="AddOrder"
-                    Content="Добавить"/>
+                    Content="Добавить" />
+                <TextBlock
+                    Classes="inGrid"
+                    Text="Приказы:" />
             </StackPanel>
-            
-            
+
             <ListBox
                 Name="Orders"
-                Grid.Row="4"
-                Margin="10"
-                Grid.Column="3">
+                Grid.Row="1"
+                Grid.RowSpan="5"
+                Grid.Column="4"
+                Margin="10">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <Grid
                             Classes="DataList"
                             ColumnDefinitions="*,*,*">
                             <TextBlock
+                                Margin="5"
+                                TextWrapping="Wrap"
                                 Grid.Column="0"
-                                Text="{Binding StringFormat=Номер приказа: {0}, Path=Order.Number}"/>
+                                Text="{Binding StringFormat=Номер приказа: {0}, Path=Order.Number}" />
                             <StackPanel
+                                Margin="5"
+                                Spacing="5"
                                 Grid.Column="1">
                                 <TextBlock
-                                    Text="{Binding StringFormat=Дата приказа: {0}, Path=Order.OrderDateString}"/>
+                                    TextWrapping="Wrap"
+                                    Text="{Binding StringFormat=Дата приказа: {0}, Path=Order.OrderDateString}" />
                                 <TextBlock
-                                    Text="{Binding StringFormat=Группа: {0}, Path=Order.Group.GroupNumber}"/>
+                                    TextWrapping="Wrap"
+                                    Text="{Binding StringFormat=Группа: {0}, Path=Order.Group.GroupNumber}" />
                             </StackPanel>
                             <TextBlock
+                                Margin="5"
+                                TextWrapping="Wrap"
                                 Grid.Column="2"
-                                Text="{Binding StringFormat=Тип приказа: {0}, Path=Order.TypeOrder.Title}"/>
+                                Text="{Binding StringFormat=Тип приказа: {0}, Path=Order.TypeOrder.Title}" />
                         </Grid>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            
-
-            <TextBlock
-                Classes="inGrid"
-                Grid.Row="0"
-                HorizontalAlignment="Center"
-                Grid.Column="4"
-                Text="Дата рождения*:" />
-
-            <Viewbox
-                Grid.Row="1"
-                Grid.RowSpan="4"
-                Grid.Column="4">
-                <Calendar
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Top"
-                    SelectionMode="SingleDate"
-                    Name="DateBirthday" />
-            </Viewbox>
-          
 
         </Grid>
 
@@ -238,6 +259,7 @@
             <Button
                 Classes="DefaultButton"
                 Name="MakeDocx"
+                IsVisible="False"
                 Content="Создать документ" />
         </StackPanel>
 

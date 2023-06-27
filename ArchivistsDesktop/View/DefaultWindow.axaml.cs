@@ -5,6 +5,7 @@ using MessageBox.Avalonia;
 using MessageBox.Avalonia.Enums;
 using MessageBox.Avalonia.DTO;
 using ArchivistsDesktop.DataClass;
+using ArchivistsDesktop.View.Admin.Pages;
 
 namespace ArchivistsDesktop.View
 {
@@ -80,8 +81,11 @@ namespace ArchivistsDesktop.View
             {
                 UserData.currentPage = new MainArchivePage();
                 PageControl.Content = UserData.currentPage;
+                return;
             }
-            
+
+            UserData.currentPage = new UsersPage();
+            PageControl.Content = UserData.currentPage;
         }
 
         /// <summary>

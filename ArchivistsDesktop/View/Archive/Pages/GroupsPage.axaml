@@ -21,9 +21,12 @@
                 <DataTemplate>
                     <Grid
                         Classes="DefaultDataList"
-                        ColumnDefinitions="*,*">
+                        ColumnDefinitions="*,2*">
                         <StackPanel
+                            Spacing="10"
                             Grid.Column="0">
+                            <TextBlock
+                                Text="{Binding StringFormat=Id: {0}, Path=Id}"/>
                             <TextBlock
                                 Text="{Binding StringFormat=Группа: {0}, Path=GroupNumber}"/>
                             <TextBlock
@@ -54,6 +57,7 @@
 
         <TextBlock
             Classes="DefaultBigText"
+            Foreground="Black"
             Grid.Row="0"
             Grid.Column="0"
             Grid.ColumnSpan="3"

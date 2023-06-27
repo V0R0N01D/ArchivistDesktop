@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
+using ArchivistsDesktop.Contracts;
 using ArchivistsDesktop.Contracts.ResponseClass;
 using ArchivistsDesktop.DataClass;
 using Avalonia;
@@ -46,7 +47,7 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
     }
 
     /// <summary>
-    /// Загрузка типов обучения и специальностей в comboBox
+    /// Загрузка типов обучения в comboBox
     /// </summary>
     private async void LoadComboBoxes()
     {
@@ -58,10 +59,6 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
             using var requestTypeEducation = new HttpRequestMessage(HttpMethod.Get, "TypeEducation");
             requestTypeEducation.Headers.Add("AUTH", authString);
             var responseTypeEducationTask = ConnectData.Client.SendAsync(requestTypeEducation);
-
-            using var requestSpeciality = new HttpRequestMessage(HttpMethod.Get, "Speciality");
-            requestSpeciality.Headers.Add("AUTH", authString);
-            var responseSpecialityTask = ConnectData.Client.SendAsync(requestSpeciality);
 
             var responseTypeEducation = await responseTypeEducationTask;
 
@@ -88,37 +85,11 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
 
             TypeEducation.Items = types;
 
-            var responseSpeciality = await responseSpecialityTask;
-
-            if (!responseSpeciality.IsSuccessStatusCode)
-            {
-                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
-                {
-                    WindowIcon = this.Icon,
-                    CanResize = true,
-                    MinWidth = 300,
-                    MaxWidth = 1920,
-                    MinHeight = 100,
-                    MaxHeight = 300,
-                    FontFamily = this.FontFamily,
-                    ContentTitle = "Ошибка",
-                    ContentMessage =
-                        $"Ошибка. Код: {responseSpeciality.StatusCode}, ошибка: {await responseSpeciality.Content.ReadAsStringAsync()}",
-                    ButtonDefinitions = ButtonEnum.Ok
-                }).ShowDialog(this);
-                return;
-            }
-
-            var speciality = await responseSpeciality.Content.ReadFromJsonAsync<List<SpecialityResponse>>();
-
-            Speciality.Items = speciality;
-
             if (_isAddEditView == true)
             {
                 return;
             }
-
-            Speciality.SelectedIndex = speciality!.FindIndex(s => s.Id == _currentGroup.Speciality.Id);
+            
             TypeEducation.SelectedIndex = types!.FindIndex(t => t.Id == _currentGroup.TypeEducation.Id);
         }
         catch (Exception ex)
@@ -145,40 +116,9 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
     /// </summary>
     private async Task<bool> LoadCurrentValToGroup()
     {
-        if (string.IsNullOrWhiteSpace(GroupNumber.Text))
+        if (DateEndEducation.SelectedDate.HasValue)
         {
-            await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
-            {
-                WindowIcon = this.Icon,
-                CanResize = true,
-                MinWidth = 300,
-                MaxWidth = 1920,
-                MinHeight = 100,
-                MaxHeight = 300,
-                FontFamily = this.FontFamily,
-                ContentTitle = "Ошибка",
-                ContentMessage = "Не введено название группы",
-                ButtonDefinitions = ButtonEnum.Ok
-            }).ShowDialog(this);
-            return false;
-        }
-        
-        if (!DateEndEducation.SelectedDate.HasValue)
-        {
-            await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
-            {
-                WindowIcon = this.Icon,
-                CanResize = true,
-                MinWidth = 300,
-                MaxWidth = 1920,
-                MinHeight = 100,
-                MaxHeight = 300,
-                FontFamily = this.FontFamily,
-                ContentTitle = "Ошибка",
-                ContentMessage = "Не выбрана дата окончания обучения",
-                ButtonDefinitions = ButtonEnum.Ok
-            }).ShowDialog(this);
-            return false;
+            _currentGroup.DateEndEducation = DateOnly.FromDateTime(DateEndEducation.SelectedDate.Value.DateTime);
         }
 
         if (Year.SelectedItem is null)
@@ -199,7 +139,7 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
             return false;
         }
 
-        if (Speciality.SelectedItem is null)
+        if (_currentGroup.Speciality is null)
         {
             await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
             {
@@ -234,10 +174,8 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
             }).ShowDialog(this);
             return false;
         }
-
-        _currentGroup.DateEndEducation = DateOnly.FromDateTime(DateEndEducation.SelectedDate.Value.DateTime);
-        _currentGroup.Year = (short)(Year.SelectedIndex == 4 ? 100 : Year.SelectedIndex + 1);
-        _currentGroup.Speciality = (Speciality.SelectedItem as SpecialityResponse)!;
+        
+        _currentGroup.Year = (short)(Year.SelectedIndex == 5 ? 100 : Year.SelectedIndex + 1);
         _currentGroup.TypeEducation = (TypeEducation.SelectedItem as TypeEducationResponse)!;
 
         return true;
@@ -254,6 +192,7 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
         {
             WindowIcon = this.Icon,
             ContentTitle = "Уведомление",
+            CanResize = true,
             ContentMessage = "Вы уверены, что хотите добавить группу?",
             ButtonDefinitions = ButtonEnum.YesNo
         }).ShowDialog(this);
@@ -347,6 +286,7 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
         {
             WindowIcon = this.Icon,
             ContentTitle = "Уведомление",
+            CanResize = true,
             ContentMessage = "Вы уверены, что хотите редактировать группу?",
             ButtonDefinitions = ButtonEnum.YesNo
         }).ShowDialog(this);
@@ -436,12 +376,13 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
     {
         DataContext = _currentGroup;
         BackPage.Click += BackPageOnClick;
+        ChangeSpeciality.Click += ChangeSpecialityOnClick;
 
         if (_isAddEditView is true)
         {
-            Speciality.SelectedIndex = 0;
             TypeEducation.SelectedIndex = 0;
             SaveGroup.Click += AddGroupOnClick;
+            Speciality.Text = "Не выбрана";
             return;
         }
 
@@ -450,18 +391,21 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
                 new TimeSpan(3, 0, 0))
             : null;
         Year.SelectedIndex = _currentGroup.Year == 100 ? 4 : _currentGroup.Year - 1;
+        
+        Speciality.Text = $"{_currentGroup.Speciality.Fgos} {_currentGroup.Speciality.Title}";
 
         if (_isAddEditView is null)
         {
             Title = "Просмотр данных группы";
             MainText.Text = "Просмотр данных группы";
 
+            ChangeSpeciality.IsVisible = false;
             SaveGroup.IsVisible = false;
-            GroupNumber.IsEnabled = false;
-            Year.IsEnabled = false;
-            DateEndEducation.IsEnabled = false;
-            TypeEducation.IsEnabled = false;
-            Speciality.IsEnabled = false;
+            GroupNumber.IsReadOnly = true;
+            Year.IsHitTestVisible = false;
+            DateEndEducation.IsHitTestVisible = false;
+            TypeEducation.IsHitTestVisible = false;
+            Speciality.IsHitTestVisible = false;
             return;
         }
 
@@ -469,6 +413,27 @@ public partial class AddEditViewGroup : Avalonia.Controls.Window
         Title = "Редактирование данных группы";
         MainText.Text = "Редактирование данных группы";
         SaveGroup.Content = "Редактировать";
+    }
+
+    /// <summary>
+    /// Изменение специальности
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    private async void ChangeSpecialityOnClick(object? sender, RoutedEventArgs e)
+    {
+        // проверка, что специальность сохранили
+        CanAdd isAcceptedSpeciality = new();
+
+        var selectSpeciality = new SpecialityResponse();
+
+        await new SelectSpeciality(ref selectSpeciality, ref isAcceptedSpeciality).ShowDialog(this);
+
+        if (isAcceptedSpeciality.IsAccepted)
+        {
+            _currentGroup.Speciality = selectSpeciality;
+            Speciality.Text = $"{_currentGroup.Speciality.Fgos} {_currentGroup.Speciality.Title}";
+        }
     }
 
     /// <summary>

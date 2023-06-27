@@ -1,0 +1,92 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ArchivistsDesktop.View.Archive.Pages.SpecialitiesPage">
+    <UserControl.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </UserControl.Styles>
+    <Grid
+        Classes="DefaultWindow"
+        RowDefinitions="*,4*,70"
+        ColumnDefinitions="*,*,*,*">
+        <ListBox
+            Name="Specialities"
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="3"
+            Grid.Column="0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid
+                        Classes="DefaultDataList"
+                        ColumnDefinitions="*,2*">
+                        <TextBlock
+                            Grid.Column="0"
+                            Text="{Binding StringFormat=ФГОС: {0}, Path=Fgos}" />
+                        <TextBlock
+                            Grid.Column="1"
+                            TextWrapping="Wrap"
+                            Text="{Binding Title}" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TextBlock
+            Classes="DefaultBigText"
+            Foreground="Black"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            IsVisible="False"
+            Name="NoResult"
+            HorizontalAlignment="Center"
+            Margin="10"
+            Text="Нет результата, который соответствует запросу" />
+
+        <TextBox
+            Classes="DefaultTextBox"
+            Name="SearchInput"
+            Watermark="Поиск"
+            Margin="10"
+            Grid.Row="0"
+            Grid.Column="3"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch" />
+
+        <StackPanel
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="10"
+            Spacing="10"
+            Grid.Row="1"
+            Grid.Column="3">
+            <Button
+                Classes="DefaultButton"
+                Content="Найти"
+                Name="Search"
+                HorizontalContentAlignment="Center"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" />
+        </StackPanel>
+
+
+        <Button
+            Classes="DefaultButton"
+            Name="BackPage"
+            Content="Назад"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0" />
+
+        <Button
+            Classes="DefaultButton"
+            Grid.Row="2"
+            Grid.Column="1"
+            Name="AddSpeciality"
+            IsVisible="False"
+            Content="Добавить специальность" />
+    </Grid>
+</UserControl>

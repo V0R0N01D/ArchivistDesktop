@@ -21,6 +21,7 @@
 					Classes="DefaultTextBox"
 					Grid.Row="2"
 					Margin="10"
+					IsEnabled="False"
 					Text="wdadwdwaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawdwadwadwadwadwadgdgrgdrfffdxfsdfseesfesftjfhfgdfgfddgdj"/>
 			</Grid>
 		</Border>
@@ -243,10 +244,12 @@
 	</Style>
 	
 	
-	
+	<!-- Выбор даты -->
 	<Style
-		Selector="DatePicker">
+		Selector="DatePicker.DefaultDate">
 		<Setter Property="Background"
 		        Value="White"/>
+		<Setter Property="Foreground"
+		        Value="Black"/>
 	</Style>
 </Styles>

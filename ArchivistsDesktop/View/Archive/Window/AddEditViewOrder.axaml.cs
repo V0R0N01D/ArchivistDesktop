@@ -171,11 +171,11 @@ public partial class AddEditViewOrder : Avalonia.Controls.Window
             MainText.Text = "Просмотр данных приказа";
 
             SaveOrder.IsVisible = false;
-            Group.IsEnabled = false;
-            OrderNumber.IsEnabled = false;
-            DateOrder.IsEnabled = false;
-            DateStartOrder.IsEnabled = false;
-            TypeOrder.IsEnabled = false;
+            Group.IsHitTestVisible = false;
+            OrderNumber.IsReadOnly = true;
+            DateOrder.IsHitTestVisible = false;
+            DateStartOrder.IsHitTestVisible = false;
+            TypeOrder.IsHitTestVisible = false;
             return;
         }
 
@@ -281,6 +281,7 @@ public partial class AddEditViewOrder : Avalonia.Controls.Window
         {
             WindowIcon = this.Icon,
             ContentTitle = "Уведомление",
+            CanResize = true,
             ContentMessage = "Вы уверены, что хотите добавить приказ?",
             ButtonDefinitions = ButtonEnum.YesNo
         }).ShowDialog(this);
@@ -374,6 +375,7 @@ public partial class AddEditViewOrder : Avalonia.Controls.Window
         {
             WindowIcon = this.Icon,
             ContentTitle = "Уведомление",
+            CanResize = true,
             ContentMessage = "Вы уверены, что хотите редактировать приказ?",
             ButtonDefinitions = ButtonEnum.YesNo
         }).ShowDialog(this);

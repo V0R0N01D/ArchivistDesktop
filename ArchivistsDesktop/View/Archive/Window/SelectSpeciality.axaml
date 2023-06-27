@@ -1,0 +1,93 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="250"
+        x:Class="ArchivistsDesktop.View.Archive.Window.SelectSpeciality"
+        Icon="/Source/Image/ava.png"
+        Height="250"
+        Width="500"
+        CanResize="False"
+        Title="Выбор специальности">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+    <Grid
+        Classes="DefaultWindow"
+        RowDefinitions="*,*,*,*"
+        ColumnDefinitions="*,2*,*">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Grid.Row="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Text="Выбор специальности" />
+
+        <TextBox
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Classes="DefaultTextBox"
+            Name="InputSearch"
+            Margin="10"
+            Watermark="Поиск" />
+
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            Name="Search"
+            HorizontalAlignment="Center"
+            Classes="DefaultButton"
+            Content="Поиск" />
+
+        <TextBlock
+            Classes="DefaultText"
+            Grid.Row="2"
+            Grid.Column="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Специальность:" />
+
+        <ComboBox
+            Classes="DefaultComboBox"
+            Grid.Row="2"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Name="Speciality">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock.Text>
+                            <MultiBinding
+                                StringFormat="{}{0} {1}">
+                                <Binding
+                                    Path="Fgos" />
+                                <Binding
+                                    Path="Title" />
+                            </MultiBinding>
+                        </TextBlock.Text>
+                    </TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <Button
+            Classes="DefaultButton"
+            Margin="10"
+            Grid.Row="3"
+            Grid.Column="0"
+            Name="BackPage"
+            Content="Назад" />
+
+        <Button
+            Classes="DefaultButton"
+            Name="SaveSpeciality"
+            Grid.Row="3"
+            Grid.Column="2"
+            HorizontalAlignment="Right"
+            Margin="10"
+            Content="Выбрать" />
+    </Grid>
+</Window>

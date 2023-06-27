@@ -38,6 +38,8 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
         LoadStudentDataToField();
 
         InitializeEvents();
+
+        LoadCertificateTypes();
     }
 
     public AddEditViewStudentWindow(EditStudentResponse selectStudent, bool isView)
@@ -51,6 +53,69 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
         LoadStudentDataToField();
 
         InitializeEvents();
+
+        LoadCertificateTypes();
+    }
+
+    /// <summary>
+    /// Загрузка типов аттестатов в comboBox
+    /// </summary>
+    private async void LoadCertificateTypes()
+    {
+        // Строка авторизации в api
+        var authString = Auth.GetAuth(ConnectData.Login, ConnectData.Password);
+
+        try
+        {
+            using var request = new HttpRequestMessage(HttpMethod.Get, "CertificateType");
+            request.Headers.Add("AUTH", authString);
+            var response = await ConnectData.Client.SendAsync(request);
+            if (!response.IsSuccessStatusCode)
+            {
+                await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+                {
+                    WindowIcon = this.Icon,
+                    CanResize = true,
+                    MinWidth = 300,
+                    MaxWidth = 1920,
+                    MinHeight = 100,
+                    MaxHeight = 300,
+                    FontFamily = this.FontFamily,
+                    ContentTitle = "Ошибка",
+                    ContentMessage =
+                        $"Ошибка. Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}",
+                    ButtonDefinitions = ButtonEnum.Ok
+                }).ShowDialog(this);
+                return;
+            }
+
+            var types = await response.Content.ReadFromJsonAsync<List<CertificateEducationTypeReposponse>>();
+
+            TypeCertificateEducation.Items = types;
+
+            if (_isAddEditView != true && _currentStudent.Student.TypeCertificate is not null && types is not null)
+            {
+                var index = types.FindIndex(x => x.Id == _currentStudent.Student.TypeCertificate.Id);
+                TypeCertificateEducation.SelectedIndex = index;
+            }
+        }
+        catch (Exception ex)
+        {
+            await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
+            {
+                WindowIcon = this.Icon,
+                CanResize = true,
+                MinWidth = 300,
+                MaxWidth = 1920,
+                MinHeight = 100,
+                MaxHeight = 300,
+                FontFamily = this.FontFamily,
+                ContentTitle = "Ошибка",
+                ContentMessage =
+                    $"Ошибка соединения: {ex.Message}",
+                ButtonDefinitions = ButtonEnum.Ok
+            }).ShowDialog(this);
+        }
     }
 
     /// <summary>
@@ -59,27 +124,37 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
     private void InitializeEvents()
     {
         BackPage.Click += BackPageOnClick;
-        CheckCertificateEducation.Click += CheckCertificateEducationOnClick;
+        CheckDiplom.Click += CheckDiplomOnClick;
         AddOrder.Click += AddOrderOnClick;
-        MakeDocx.Click += MakeDocxOnClick;
+        Orders.DoubleTapped += OrdersOnDoubleTapped;
 
         if (_isAddEditView is null)
         {
             Title = "Просмотр данных студента";
             MainText.Text = "Просмотр данных студента";
+            CheckDiplom.Content = "Посмотреть документ об образовании";
 
-            // CancelChange.IsVisible = false;
+            MakeDocx.IsVisible = true;
+            MakeDocx.Click += MakeDocxOnClick;
+
             AddOrder.IsVisible = false;
             SaveStudent.IsVisible = false;
 
-            LastName.IsEnabled = false;
-            FirstName.IsEnabled = false;
-            Patronymic.IsEnabled = false;
-            PassportSerial.IsEnabled = false;
-            PassportNumber.IsEnabled = false;
-            DocumentPlace.IsEnabled = false;
-            IsStuding.IsEnabled = false;
-            DateBirthday.IsEnabled = false;
+            LastName.IsReadOnly = true;
+            FirstName.IsReadOnly = true;
+            Patronymic.IsReadOnly = true;
+            PassportSerial.IsReadOnly = true;
+            PassportNumber.IsReadOnly = true;
+            DocumentPlace.IsReadOnly = true;
+            IsReleased.IsHitTestVisible = false;
+            DateBirthday.IsHitTestVisible = false;
+            TypeCertificateEducation.IsHitTestVisible = false;
+
+            if (_currentStudent.Student.Diploma is null)
+            {
+                CheckDiplom.IsVisible = false;
+            }
+
             return;
         }
 
@@ -109,6 +184,21 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
         SaveStudent.Content = "Редактировать";
 
         SaveStudent.Click += SaveStudentOnClick;
+    }
+
+    /// <summary>
+    /// Просмотр данных приказа
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    private async void OrdersOnDoubleTapped(object? sender, RoutedEventArgs e)
+    {
+        if (Orders.SelectedItem is not StudentOrderResponse selectOrder)
+        {
+            return;
+        }
+
+        await new AddEditViewOrder(selectOrder.Order, true).ShowDialog(this);
     }
 
     /// <summary>
@@ -192,10 +282,20 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
                     text.Text = text.Text.Replace(">", studentFio);
                 }
 
-                // замена курса ----------------------------------------------------------------------------------------------
+                // замена курса
                 if (currentArg.Contains("years"))
                 {
-                    var titleCourse = "четвертого";
+                    var titleCourse =
+                        _currentStudent.StudentOrders?.MaxBy(so => so.Order.OrderDate)?.Order.Group?.Year switch
+                        {
+                            1 => "первого",
+                            2 => "второго",
+                            3 => "третьего",
+                            4 => "четвертого",
+                            5 => "пятого",
+                            _ => ""
+                        };
+
                     text.Text = text.Text.Replace(">", titleCourse);
                 }
 
@@ -208,15 +308,12 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
                 if (currentArg.Contains("speciality"))
                 {
                     var speciality = lastStudentOrder?.Group?.Speciality;
-                    text.Text = text.Text.Replace(">", $"{speciality.Fgos} {speciality.Title}");
+                    text.Text = text.Text.Replace(">", $"{speciality?.Fgos} {speciality?.Title}");
                 }
 
                 if (currentArg.Contains("type_start_education"))
                 {
-                    var typeEducation = _currentStudent.CertificateEducation?.Type.Id == 1
-                        ? "основного общего образования"
-                        : "среднего общего образования";
-                    text.Text = text.Text.Replace(">", typeEducation);
+                    text.Text = text.Text.Replace(">", _currentStudent.Student.TypeCertificate?.Title);
                 }
 
                 if (currentArg.Contains("type_education"))
@@ -242,7 +339,8 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
                         1 => "первого",
                         2 => "второго",
                         3 => "третьего",
-                        _ => "четвертого"
+                        4 => "четвертого",
+                        _ => "пятого"
                     };
 
                     text.Text = text.Text.Replace(">", yearTitle);
@@ -277,8 +375,8 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
             }
 
             document.SaveAs(Path.Combine(pathDocuments,
-                    $"{selectTypeDoc}-{_currentStudent.Student.LastName}-{_currentStudent.Student.FirstName}") +
-                ".docx")
+                                $"{selectTypeDoc}-{_currentStudent.Student.LastName}-{_currentStudent.Student.FirstName}") +
+                            ".docx")
                 .Close();
         }
     }
@@ -290,12 +388,16 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
     /// <param name="e"></param>
     private async void MenItemOnClick(object? sender, RoutedEventArgs e)
     {
-        var selectOrder = (StudentOrderResponse)Orders.SelectedItem;
+        if (Orders.SelectedItem is not StudentOrderResponse selectOrder)
+        {
+            return;
+        }
 
         var res = await MessageBoxManager.GetMessageBoxStandardWindow(new MessageBoxStandardParams()
         {
             WindowIcon = UserData.currentWindow!.Icon,
             ContentTitle = "Уведомление",
+            CanResize = true,
             ContentMessage = "Вы уверены, что хотите удалить выбранный приказ?",
             ButtonDefinitions = ButtonEnum.YesNo
         }).ShowDialog(UserData.currentWindow!);
@@ -305,10 +407,10 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
             return;
         }
 
-        _currentStudent.StudentOrders!.Remove(selectOrder!);
+        _currentStudent.StudentOrders!.Remove(selectOrder);
         Orders.Items = _currentStudent.StudentOrders.ToList();
 
-        if (selectOrder!.Id is null)
+        if (selectOrder.Id is null)
         {
             return;
         }
@@ -345,13 +447,13 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
     }
 
     /// <summary>
-    /// Просмотр аттестата
+    /// Просмотр диплома
     /// </summary>
     /// <param name="sender"></param>
     /// <param name="e"></param>
-    private async void CheckCertificateEducationOnClick(object? sender, RoutedEventArgs e)
+    private async void CheckDiplomOnClick(object? sender, RoutedEventArgs e)
     {
-        if (_currentStudent.CertificateEducation is null)
+        if (_currentStudent.Student.Diploma is null)
         {
             if (_isAddEditView is null)
             {
@@ -360,50 +462,45 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
             }
 
             // проверка, что сертификат сохранили
-            CanAdd isAcceptedCertificateAdd = new();
+            CanAdd isAcceptedDiplomAdd = new();
 
-            var selectCertificateAdd = new CertificateEducationResponse();
-            await new AddEditViewCertificateEducationWindow(ref selectCertificateAdd, true,
-                ref isAcceptedCertificateAdd).ShowDialog(this);
+            var selectDiplomAdd = new DiplomResponse();
 
-            if (isAcceptedCertificateAdd.IsAccepted)
+            await new AddEditViewDiplom(ref selectDiplomAdd, ref isAcceptedDiplomAdd).ShowDialog(this);
+
+            if (isAcceptedDiplomAdd.IsAccepted)
             {
-                _currentStudent.CertificateEducation = selectCertificateAdd;
+                _currentStudent.Student.Diploma = selectDiplomAdd;
             }
-
-            _currentStudent.CertificateEducation.AverageGrade = _currentStudent.CertificateEducation.Grades is null
-                ? null
-                : decimal.Round(
-                    ((decimal)_currentStudent.CertificateEducation.Grades.Sum(g => g.Score)) /
-                    _currentStudent.CertificateEducation.Grades.Count, 2);
 
             LoadStudentDataToField();
 
             return;
         }
 
-        CanAdd isAcceptedCertificate = new();
+        CanAdd isAcceptedDiplomEdit = new();
 
-        var selectCertificate = _currentStudent.CertificateEducation;
-        await new AddEditViewCertificateEducationWindow(ref selectCertificate,
-            _isAddEditView is true ? false : _isAddEditView,
-            ref isAcceptedCertificate).ShowDialog(this);
+        var selectDiplom = new DiplomResponse()
+        {
+            Id = _currentStudent.Student.Diploma.Id,
+            DateIssue = _currentStudent.Student.Diploma.DateIssue,
+            Number = _currentStudent.Student.Diploma.Number,
+            Serial = _currentStudent.Student.Diploma.Serial
+        };
+
+        await new AddEditViewDiplom(ref selectDiplom,
+            _isAddEditView is true ? false : _isAddEditView is null ? true : false,
+            ref isAcceptedDiplomEdit).ShowDialog(this);
 
         if (_isAddEditView is null)
         {
             return;
         }
 
-        if (isAcceptedCertificate.IsAccepted)
+        if (isAcceptedDiplomEdit.IsAccepted)
         {
-            _currentStudent.CertificateEducation = selectCertificate;
+            _currentStudent.Student.Diploma = selectDiplom;
         }
-
-        _currentStudent.CertificateEducation.AverageGrade = _currentStudent.CertificateEducation.Grades is null
-            ? null
-            : decimal.Round(
-                ((decimal)_currentStudent.CertificateEducation.Grades.Sum(g => g.Score)) /
-                _currentStudent.CertificateEducation.Grades.Count, 2);
 
         LoadStudentDataToField();
     }
@@ -453,6 +550,7 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
         {
             WindowIcon = this.Icon,
             ContentTitle = "Уведомление",
+            CanResize = true,
             ContentMessage = "Вы уверены, что хотите добавить студента?",
             ButtonDefinitions = ButtonEnum.YesNo
         }).ShowDialog(this);
@@ -550,6 +648,7 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
         {
             WindowIcon = UserData.currentWindow!.Icon,
             ContentTitle = "Уведомление",
+            CanResize = true,
             ContentMessage = "Вы уверены, что хотите сохранить изменения студента?",
             ButtonDefinitions = ButtonEnum.YesNo
         }).ShowDialog(this);
@@ -643,10 +742,9 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
     {
         DataContext = _currentStudent.Student;
 
-        if (_currentStudent.CertificateEducation is not null)
+        if (_currentStudent.Student.Diploma is not null)
         {
-            AverangeGrade.Text = $"Средний балл: {_currentStudent.CertificateEducation.AverageGrade}";
-            CheckCertificateEducation.Content = "Посмотреть";
+            CheckDiplom.Content = "Посмотреть документ об образовании";
         }
 
         if (_isAddEditView is true)
@@ -658,7 +756,6 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
 
         var birthday = _currentStudent.Student.DateBirthday.ToDateTime(new TimeOnly(0));
         DateBirthday.SelectedDate = birthday;
-        DateBirthday.DisplayDate = birthday;
     }
 
     /// <summary>
@@ -686,7 +783,13 @@ public partial class AddEditViewStudentWindow : Avalonia.Controls.Window
             return false;
         }
 
-        _currentStudent.Student.DateBirthday = DateOnly.FromDateTime(DateBirthday.SelectedDate.Value);
+        if (TypeCertificateEducation.SelectedItem is not null)
+        {
+            _currentStudent.Student.TypeCertificate =
+                TypeCertificateEducation.SelectedItem as CertificateEducationTypeReposponse;
+        }
+
+        _currentStudent.Student.DateBirthday = DateOnly.FromDateTime(DateBirthday.SelectedDate.Value.Date);
 
         return true;
     }

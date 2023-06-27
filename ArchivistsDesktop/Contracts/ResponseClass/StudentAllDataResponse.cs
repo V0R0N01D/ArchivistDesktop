@@ -13,5 +13,11 @@ public class StudentAllDataResponse
     [JsonPropertyName("passport_serial")] public string? PassportSerial { get; set; }
     [JsonPropertyName("passport_number")] public string? PassportNumber { get; set; }
     [JsonPropertyName("document_place")] public string? DocumentPlace { get; set; }
-    [JsonPropertyName("is_studing")] public bool IsStuding { get; set; }
+
+    [JsonPropertyName("type_certificate_education")]
+    public CertificateEducationTypeReposponse? TypeCertificate { get; set; }
+
+    [JsonPropertyName("is_released")] public bool IsReleased { get; set; }
+
+    [JsonPropertyName("diploma")] public DiplomResponse? Diploma { get; set; }
 }

@@ -145,7 +145,7 @@ namespace ArchivistsDesktop
                     ConnectData.Login = login;
                     ConnectData.Password = password;
 
-                    ConnectData.Roles = await response.Content.ReadFromJsonAsync<List<UserRoleResponse>>();
+                    ConnectData.Roles = await response.Content.ReadFromJsonAsync<List<RoleResponse>>();
                 }
             }
             // Перехват ошибок связи с api
@@ -168,11 +168,16 @@ namespace ArchivistsDesktop
                 Login.IsEnabled = true;
                 return;
             }
-
-            // Проверка на обновление пароля (next)
             
+            // Проверка наличия роли для открытия окна администрирования
+            if (ConnectData.Roles!.FirstOrDefault(role => role.Id == 15000) is not null)
+            {
+                UserData.currentWindow = new DefaultWindow(false);
+                UserData.currentWindow.Show();
+                this.Close();
+            }
             // Проверка наличия роли для открытия архива
-            if (ConnectData.Roles!.FirstOrDefault(role => role.Id == 1) is not null)
+            else if (ConnectData.Roles!.FirstOrDefault(role => role.Id == 1) is not null)
             {
                 UserData.currentWindow = new DefaultWindow(true);
                 UserData.currentWindow.Show();

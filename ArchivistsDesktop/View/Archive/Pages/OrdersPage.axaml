@@ -49,6 +49,7 @@
 
         <TextBlock
             Classes="DefaultBigText"
+            Foreground="Black"
             Grid.Row="0"
             Grid.Column="0"
             Grid.ColumnSpan="3"
@@ -87,6 +88,7 @@
                         Text="Дата приказа с:"/>
                     <Viewbox>
                         <DatePicker
+                            Classes="DefaultDate"
                             Name="StartDate" />
                     </Viewbox>
                     <TextBlock
@@ -94,6 +96,7 @@
                         Text="по:"/>
                     <Viewbox>
                         <DatePicker
+                            Classes="DefaultDate"
                             Name="EndDate" />
                     </Viewbox>
                     

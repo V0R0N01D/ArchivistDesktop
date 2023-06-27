@@ -2,12 +2,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="350"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="450"
         x:Class="ArchivistsDesktop.View.Archive.Window.AddEditViewGroup"
         Icon="/Source/Image/ava.png"
-        Height="350"
+        Height="450"
         Width="600"
-        MinHeight="350"
+        MinHeight="450"
         MinWidth="600"
         Title="Добавление группы">
     <Window.Styles>
@@ -32,7 +32,7 @@
             Grid.Column="0"
             Grid.ColumnSpan="3"
             Margin="10"
-            RowDefinitions="*,*,*"
+            RowDefinitions="*,*,*,*"
             ColumnDefinitions="*,2*,*,2*">
             <TextBlock
                 Classes="inGrid"
@@ -41,7 +41,7 @@
                 Text="ID:" />
             <TextBox
                 Name="Identify"
-                IsEnabled="False"
+                IsReadOnly="True"
                 Classes="inGrid"
                 Text="{Binding Id}"
                 Watermark="Устанавливается автоматически при добавлении"
@@ -66,46 +66,49 @@
                 Grid.Row="2"
                 Grid.Column="0"
                 Text="Курс:" />
-            
+
             <ComboBox
                 Classes="DefaultComboBox"
                 Grid.Row="2"
                 Grid.Column="1"
                 Name="Year">
                 <ComboBoxItem
-                    Content="1"/>
+                    Content="1" />
                 <ComboBoxItem
-                    Content="2"/>
+                    Content="2" />
                 <ComboBoxItem
-                    Content="3"/>
+                    Content="3" />
                 <ComboBoxItem
-                    Content="4"/>
+                    Content="4" />
                 <ComboBoxItem
-                    Content="Обучение завершено"/>
+                    Content="5" />
+                <ComboBoxItem
+                    Content="Обучение завершено" />
             </ComboBox>
 
             <TextBlock
                 Classes="inGrid"
-                Grid.Row="0"
-                Grid.Column="2"
+                Grid.Row="3"
+                Grid.Column="0"
                 Text="Дата окончания обучения:" />
             <Viewbox
-                Grid.Row="0"
-                Grid.Column="3">
+                Margin="10"
+                Grid.Row="3"
+                Grid.Column="1">
                 <DatePicker
                     Name="DateEndEducation"
-                    Classes="inGrid" />
+                    Classes="DefaultDate" />
             </Viewbox>
 
             <TextBlock
                 Classes="inGrid"
-                Grid.Row="1"
+                Grid.Row="0"
                 Grid.Column="2"
                 Text="Тип обучения:" />
             <ComboBox
                 Classes="DefaultComboBox"
                 Name="TypeEducation"
-                Grid.Row="1"
+                Grid.Row="0"
                 Grid.Column="3">
                 <ComboBox.ItemTemplate>
                     <DataTemplate>
@@ -117,36 +120,35 @@
 
             <TextBlock
                 Classes="inGrid"
-                Grid.Row="2"
+                Grid.Row="1"
                 Grid.Column="2"
                 Text="Специальность:" />
-            <ComboBox
-                Classes="DefaultComboBox"
+            <TextBlock
+                Classes="inGrid"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
                 Name="Speciality"
-                Grid.Row="2"
-                Grid.Column="3">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel
-                            Orientation="Horizontal">
-                            <TextBlock
-                                Text="{Binding Fgos}"/>
-                            <TextBlock
-                                Text="{Binding Title}"/>
-                        </StackPanel>
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-            </ComboBox>
+                Grid.Row="1"
+                Grid.RowSpan="2"
+                Grid.Column="3" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="2"
+                Grid.ColumnSpan="2"
+                HorizontalAlignment="Center"
+                Name="ChangeSpeciality"
+                Classes="DefaultButton"
+                Content="Изменить специальность" />
         </Grid>
-        
+
         <Button
             Classes="DefaultButton"
             Name="BackPage"
             Content="Назад"
             Margin="10"
             Grid.Row="2"
-            Grid.Column="0"/>
-        
+            Grid.Column="0" />
+
         <Button
             Classes="DefaultButton"
             Grid.Row="2"

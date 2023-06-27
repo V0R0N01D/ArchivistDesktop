@@ -79,6 +79,8 @@ public partial class GroupsPage : UserControl
 
             var types = await response.Content.ReadFromJsonAsync<List<GroupResponse>>();
 
+            NoResult.IsVisible = types is { Count: 0 };
+            
             Groups.Items = types;
         }
         catch (Exception ex)
@@ -171,6 +173,7 @@ public partial class GroupsPage : UserControl
         {
             WindowIcon = UserData.currentWindow!.Icon,
             ContentTitle = "Уведомление",
+            CanResize = true,
             ContentMessage = "Вы уверены, что хотите удалить выбранную группу?",
             ButtonDefinitions = ButtonEnum.YesNo
         }).ShowDialog(UserData.currentWindow!);
@@ -194,6 +197,7 @@ public partial class GroupsPage : UserControl
                 {
                     WindowIcon = UserData.currentWindow!.Icon,
                     ContentTitle = "Ошибка",
+                    CanResize = true,
                     ContentMessage =
                         $"Удаление не выполнено. Код: {response.StatusCode}, ошибка: {await response.Content.ReadAsStringAsync()}",
                     ButtonDefinitions = ButtonEnum.Ok
@@ -209,6 +213,7 @@ public partial class GroupsPage : UserControl
             {
                 WindowIcon = UserData.currentWindow!.Icon,
                 ContentTitle = "Ошибка",
+                CanResize = true,
                 ContentMessage = $"Ошибка соединения: {ex.Message}",
                 ButtonDefinitions = ButtonEnum.Ok
             }).ShowDialog(UserData.currentWindow!);

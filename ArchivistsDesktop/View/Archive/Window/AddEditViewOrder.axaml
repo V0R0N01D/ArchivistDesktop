@@ -41,7 +41,7 @@
                 Text="ID:" />
             <TextBox
                 Name="Identify"
-                IsEnabled="False"
+                IsReadOnly="True"
                 Classes="inGrid"
                 Text="{Binding Id}"
                 Watermark="Устанавливается автоматически при добавлении"
@@ -90,7 +90,7 @@
                 Grid.Column="3">
                 <DatePicker
                     Name="DateOrder"
-                    Classes="inGrid" />
+                    Classes="DefaultDate" />
             </Viewbox>
 
             <TextBlock
@@ -103,7 +103,7 @@
                 Grid.Column="3">
                 <DatePicker
                     Name="DateStartOrder"
-                    Classes="inGrid" />
+                    Classes="DefaultDate" />
             </Viewbox>
 
             <TextBlock

@@ -1,0 +1,98 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="250"
+        x:Class="ArchivistsDesktop.View.Admin.Window.AddRole"
+        Icon="/Source/Image/ava.png"
+        Height="250"
+        Width="400"
+        MinHeight="250"
+        MinWidth="400"
+        Title="Добавление роли">
+    <Window.Styles>
+        <StyleInclude Source="/Styles/StylesWhite.axaml" />
+    </Window.Styles>
+	<Grid
+		Classes="DefaultWindow"
+        RowDefinitions="*,*,*,*"
+        ColumnDefinitions="*,2*,*">
+        <TextBlock
+            Classes="DefaultBigText"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Grid.Row="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Text="Добавление роли"/>
+        
+        <TextBox
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Classes="DefaultTextBox"
+            Name="InputSearch"
+            Margin="10"
+            Watermark="Поиск"/>
+        
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            Name="Search"
+            HorizontalAlignment="Center"
+            Classes="DefaultButton"
+            Content="Поиск"/>
+        
+        <TextBlock
+            Classes="DefaultText"
+            Grid.Row="2"
+            Grid.Column="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="Роль:"/>
+        
+        <ComboBox
+            Classes="DefaultComboBox"
+            Grid.Row="2"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Name="Roles">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid
+                        Classes="DefaultDataList"
+                        ColumnDefinitions="*,2*">
+                        <TextBlock
+                            Margin="5"
+                            TextWrapping="Wrap"
+                            Grid.Column="0"
+                            Text="{Binding StringFormat=Название: {0}, Path=Title}" />
+                        <TextBlock
+                            Margin="5"
+                            TextWrapping="Wrap"
+                            Grid.Column="1"
+                            Text="{Binding StringFormat=Описание: {0}, Path=Description}" />
+                    </Grid>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        
+        <Button
+            Classes="DefaultButton"
+            Margin="10"
+            Grid.Row="3"
+            Grid.Column="0"
+            Name="BackPage"
+            Content="Назад" />
+        
+        <Button
+            Classes="DefaultButton"
+            Name="SaveRole"
+            Grid.Row="3"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Right"
+            Margin="10"
+            Content="Добавить"/>
+    </Grid>
+</Window>
